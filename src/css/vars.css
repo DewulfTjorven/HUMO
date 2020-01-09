@@ -1,12 +1,7 @@
 :root {
-  --main--color: #0057ff;
-  --main--dark--color: #151d27;
-  --main--hover: rgb(83, 141, 255);
-  --main--active: rgb(38, 91, 197);
-  --main--grey--color: #8888;
-  --main--error--color: rgba(255, 37, 37, .8);
-  --main--text--color: #7878;
-  --light--text--color: #afafaf;
+  --main--color: #ee090c;
+  --secondary--color: #f8f8f4;
+  --text--color: black;
   --font--title--size: 1.8rem;
   --font--h2--size: 1.6rem;
   --font--a--size: 1.2rem;
