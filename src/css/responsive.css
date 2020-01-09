@@ -1,0 +1,59 @@
+@media only screen and (min-width: 550px) {
+
+  .intro--content p {
+    width: 60%;
+  }
+
+  .flancers__overview {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flancer__bio {
+    width: 95%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .flancers__overview {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .flancer__card {
+    width: 32rem;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+
+  .flancer__card {
+    width: 40rem;
+  }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+  .flancer__card {
+    width: 42rem;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .flancer__card {
+    width: 52rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+
+  .flancer__card {
+    width: 56rem;
+  }
+}
