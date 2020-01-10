@@ -41,6 +41,32 @@
       </section>
       <?php echo $content;?>
     </main>
+    <footer>
+      <section class="footer__items">
+          <div class="footer__nav">
+            <ul>
+              <li><a href="#">Privacybeleid</a></li>
+              <li><a href="#">Wedstrijdreglement</a></li>
+              <li><a href="#">Adverteren</a></li>
+              <li><a href="#">Gebruiksvoorwaarden</a></li>
+              <li><a href="#">Cookiebeleid</a></li>
+              <li><a href="#">Cookie instellingen</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Colofon</a></li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <img class="hamburger" src="../images/icons/facebook.png">
+            <img class="hamburger" src="../images/icons/twitter.png">
+          </div>
+          <div class="footer__logos">
+          <img class="hamburger" src="../images/dpgmedia.png">
+          <img class="hamburger" src="../images/logo-cim.png">
+          <img class="hamburger" src="../images/logo-jep.jpg">
+          <img class="hamburger" src="../images/logo-rvdj.jpg">
+          </div>
+        </section>
+      </footer>
     <?php echo $js; ?>
   </body>
 </html>

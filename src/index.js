@@ -1,7 +1,8 @@
 require('./css/reset.css');
 require('./css/style.css');
 require('./css/vars.css');
-
+require('./css/nav.css');
+require('./css/footer.css');
 
 {
   const init = () => {
