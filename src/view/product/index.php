@@ -22,9 +22,14 @@
     <?php
     foreach($products as $product){
       ?>
-    <a href ="index.php?page=index&id=<?php echo $product['id']; ?>">
+    <a href ="index.php?page=detail&id=<?php echo $product['id']; ?>">
       <article class="product__card">
-        <p class="flancer__type"><?php echo $product["productname"] ?></p>
+        <div class="product__image">
+        </div>
+        <div class="product__info">
+          <h2 class="flancer__type"><?php echo $product["productname"] ?></h2>
+          <strong><h3 class="flancer__type"><?php echo '$' . $product["price"] ?></h3></strong>
+        </div>
       </article>
     </a>
       <?php

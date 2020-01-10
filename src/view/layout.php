@@ -11,7 +11,7 @@
     <main class="container">
       <nav>
         <img class="hamburger" src="../images/icons/nav.png">
-        <img class="humo--logo" src="../images/humo.png">
+        <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
         <img src="../images/icons/shopping-cart.png">
       </nav>
       <section class="navigation__content">
