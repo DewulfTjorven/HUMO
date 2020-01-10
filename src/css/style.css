@@ -22,6 +22,45 @@ body {
 html, body {
   height: 100%;
 }
+/*
+@font-face {
+  font-family: SwissBlack;
+  src: url(../fonts/Swiss\ Black.ttf);
+}
+
+@font-face {
+  font-family: SwissBold;
+  src: url(../fonts/Swiss\ Bold.ttf);
+}
+
+@font-face {
+  font-family: SwissRegular;
+  src: url(../fonts/Swiss\ Regular.ttf);
+}
+@font-face {
+  font-family: NewsGothic;
+  src: url(../fonts/NewsGothicStd.otf);
+}
+*/
+h1 {
+
+}
+
+h2 {
+
+}
+
+a,li {
+  font-family: sans-serif;
+}
+
+p {
+
+}
+
+.text--color__red a{
+  color: var(--main--color);
+}
 
 .container {
   width: 80%;
@@ -48,4 +87,46 @@ nav img {
   margin: auto;
   background: black;
   height: 40rem;
+}
+
+.navigation__content {
+  display: none;
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: var(--padding--top--mobile);
+
+}
+
+.navigation__content li,a {
+  font-size: var(--font--a--size);
+  text-decoration: none;
+  color: black;
+  padding-top: 1rem;
+}
+
+.navigation__main {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+
+}
+
+.navigation__main li {
+  border-bottom: 2px dotted var(--border--color);
+  padding-bottom: 1rem;
+}
+
+.navigation__second {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+
+}
+
+.navigation__second li:last-child {
+  border-bottom: 2px dotted var(--border--color);
+  padding-bottom: 1rem;
 }

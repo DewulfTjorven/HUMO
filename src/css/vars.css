@@ -1,15 +1,9 @@
 :root {
   --main--color: #ee090c;
   --secondary--color: #f8f8f4;
+  --border--color: rgba(70, 70, 70, .3);
   --text--color: black;
-  --font--title--size: 1.8rem;
-  --font--h2--size: 1.6rem;
-  --font--a--size: 1.2rem;
-  --font--text--size: 1.2rem;
-  --font--p--size--small: 1rem;
-  --margin--top: 2rem;
-  --padding--top: 4rem;
-  --padding--bottom: 2rem;
-  --button--box--shadow: 0 0 25px rgba(0, 87, 255, .55);
-  --box--shadow: 0 0 30px rgba(0, 0, 0, .12);
+  --font--a--size: 1.8rem;
+  --padding--top--mobile: 3rem;
+
 }

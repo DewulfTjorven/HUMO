@@ -2,10 +2,25 @@ require('./css/reset.css');
 require('./css/style.css');
 require('./css/vars.css');
 
+
 {
   const init = () => {
 
-    console.log('logged');
+    const burger = document.querySelector('.hamburger');
+    const navigation = document.querySelector('.navigation__content');
+
+    // if statement to check if element exists -> no error
+    if (burger) {
+      burger.addEventListener('click', function() {
+        if (navigation.style.display === 'none') {
+          navigation.style.display = 'block';
+        }
+        else {
+          navigation.style.display = 'none';
+        }
+      });
+    }
+
 
   };
 
