@@ -18,4 +18,40 @@ class ProductDAO extends DAO {
     $stmt->execute();
     return $stmt->fetch(PDO::FETCH_ASSOC);
   }
+
+  public function filterByBoek(){
+    $sql = "SELECT * FROM `products` WHERE `tag` LIKE 'boek'";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function filterByEboek(){
+    $sql = "SELECT * FROM `products` WHERE `tag` LIKE 'eboek'";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function filterByAbonnement(){
+    $sql = "SELECT * FROM `products` WHERE `tag` LIKE 'abonnement'";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function filterByExtra(){
+    $sql = "SELECT * FROM `products` WHERE `tag` LIKE 'extra'";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
+  public function filterBySearch(){
+    $sql = "SELECT * FROM `products` LIKE";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
 }
