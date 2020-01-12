@@ -29,7 +29,7 @@
     <?php
     foreach($products as $product){
       ?>
-    <a href="index.php?page=detail&id=<?php echo $product['id']; ?>">
+    <a href="index.php?page=detail&product_id=<?php echo $product['product_id']; ?>">
       <article class="product__card">
         <div class="product__image">
         </div>

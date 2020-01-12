@@ -11,12 +11,15 @@ class ProductController extends Controller {
 
   public function index() {
 
+    // Search nog te doen
     if (!empty($_GET['action']) && $_GET['action'] == 'search') {
       $products = $this->productDAO->filterBySearch();
     }else{
+      // Geen search value -> Alle producten tonen
       $products = $this->productDAO->selectAllProducts();
     }
 
+    // Filteren
     if (!empty($_GET['action']) && $_GET['action'] == 'filter' && $_GET['filterby'] == 'boek') {
       $products = $this->productDAO->filterByBoek();
     }else if(!empty($_GET['action']) && $_GET['action'] == 'filter' && $_GET['filterby'] == 'eboek'){
@@ -29,15 +32,18 @@ class ProductController extends Controller {
       $products = $this->productDAO->selectAllProducts();
     }
 
+    // DAO resultaat in var steken
     $this->set('products', $products);
     $this->set('title', 'index');
 
   }
 
   public function detail() {
-    if(!empty($_GET['id'])){
-     $product = $this->productDAO->selectById($_GET['id']);
+    // Get id om te kijken of ons product klopt
+    if(!empty($_GET['product_id'])){
+     $product = $this->productDAO->selectById($_GET['product_id']);
     }
+    // Geen product gevonden? Naar index met foutmelding
     if(empty($product)){
       $_SESSION['error'] = 'Het product werd niet gevonden';
       header('Location:index.php');

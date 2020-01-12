@@ -13,6 +13,9 @@
 
         <tbody>
 
+        Waarom eerst product en dan productname index gebruiken?
+
+
           <?php
           $total = 0;
           foreach($_SESSION['cart'] as $item) {
@@ -20,9 +23,10 @@
             $total += $itemTotal;
           ?>
           <tr class="item">
+            <td class='price'><?php echo $item['product']['productname'];?></td>
             <td class='price'><?php echo money_format("%i", $item['product']['price']);?></td>
-            <td class='quantity'> <input class="text quantity" type="text" name="quantity[<?php echo $item['product']['id'];?>]" value="<?php echo $item['quantity'];?>" class="replace" /> </td>
-            <td class='remove-item'><button type="submit" class="btn remove-from-cart" name="remove" value="<?php echo $item['product']['id'];?>">Remove</button></td>
+            <td class='quantity'> <input class="text quantity" type="text" name="quantity[<?php echo $item['product']['product_id'];?>]" value="<?php echo $item['quantity'];?>" class="replace" /> </td>
+            <td class='remove-item'><button type="submit" class="btn remove-from-cart" name="remove" value="<?php echo $item['product']['product_id'];?>">Remove</button></td>
             <td class='total'><?php echo money_format("%i", $itemTotal);?></td>
           </tr>
           <?php

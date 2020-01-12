@@ -199,6 +199,7 @@ p {
 
 .details__description {
   padding-bottom: var(--padding--top--mobile);
+  padding-top: var(--padding--top--mobile);
   text-align: justify;
 }
 
@@ -208,4 +209,11 @@ p {
   border-radius: var(--border--radius);
   border: none;
   color: white;
+}
+
+.quantity {
+  width: 8rem;
+  background-color: white;
+  border: 1px solid var(--secondary--color);
+  padding: .8rem;
 }

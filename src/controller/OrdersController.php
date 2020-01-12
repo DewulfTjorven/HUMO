@@ -12,10 +12,11 @@ class OrdersController extends Controller {
   }
 
   public function cart() {
+    // Volledige function voo de cart met add, update en remove
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'add') {
         $this->_handleAdd();
-        header('Location: index.php?page=detail&id=' . $_POST['product_id']);
+        header('Location: index.php?page=detail&product_id=' . $_POST['product_id']);
         exit();
       }
       if ($_POST['action'] == 'empty') {
@@ -34,12 +35,8 @@ class OrdersController extends Controller {
     }
   }
 
-  private function _handleCheckout() {
-    header('Location: https://stripe.com/checkout');
-    exit();
-  }
-
   private function _handleAdd() {
+    // Als session array leeg is -> product met specifieke id in session steken
     if (empty($_SESSION['cart'][$_POST['product_id']])) {
       $product = $this->productDAO->selectById($_POST['product_id']);
       if (empty($product)) {
@@ -54,6 +51,7 @@ class OrdersController extends Controller {
   }
 
   private function _handleRemove() {
+    // Zit er een item in de session? dan remove wanneer remove klikt
     if (isset($_SESSION['cart'][$_POST['remove']])) {
       unset($_SESSION['cart'][$_POST['remove']]);
     }
