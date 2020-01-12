@@ -37,9 +37,14 @@ class ProductController extends Controller {
   public function detail() {
     if(!empty($_GET['id'])){
      $product = $this->productDAO->selectById($_GET['id']);
-   }
+    }
+    if(empty($product)){
+      $_SESSION['error'] = 'Het product werd niet gevonden';
+      header('Location:index.php');
+      exit();
+    }
 
-   $this->set('product',$product);
+    $this->set('product',$product);
 
 }
 

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://localhost:8888/index.php?page=detail&id=100 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUMO</title>
+        <link href="./HUMO_files/css" rel="stylesheet">
+  <style>html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+</style><style>/* stylelint-disable */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/* stylelint-enable */
+.hidden {
+  display: none;
+}
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html, body {
+  height: 100%;
+}
+/*
+@font-face {
+  font-family: SwissBlack;
+  src: url(../fonts/Swiss\ Black.ttf);
+}
+
+@font-face {
+  font-family: SwissBold;
+  src: url(../fonts/Swiss\ Bold.ttf);
+}
+
+@font-face {
+  font-family: SwissRegular;
+  src: url(../fonts/Swiss\ Regular.ttf);
+}
+@font-face {
+  font-family: NewsGothic;
+  src: url(../fonts/NewsGothicStd.otf);
+}
+*/
+h1 {
+  font-family: sans-serif;
+  font-size: var(--font--h1--size);
+  line-height: 2.4rem;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: var(--font--h2--size);
+}
+h3 {
+  font-family: sans-serif;
+  font-size: var(--font--h3--size);
+}
+a,li {
+  font-family: sans-serif;
+  font-size: var(--font--a--size);
+}
+p {
+  font-family: sans-serif;
+  font-size: var(--font--p--size);
+  line-height: 1.6rem;
+}
+.text--color__red a {
+  color: var(--main--color);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.filter__container {
+  width: 100%;
+  margin: auto;
+}
+.search__container {
+  width: 100%;
+  margin: auto;
+}
+.search {
+  width: 100%;
+  background-color: var(--secondary--color);
+  border: none;
+  padding: 1.6rem;
+  border-radius: .3rem;
+}
+.search img {
+  width: 3rem;
+}
+.search::-webkit-input-placeholder {
+  padding-right: 2rem;
+}
+.search::-moz-placeholder {
+  padding-right: 2rem;
+}
+.search:-ms-input-placeholder {
+  padding-right: 2rem;
+}
+.search::-ms-input-placeholder {
+  padding-right: 2rem;
+}
+.search::placeholder {
+  padding-right: 2rem;
+}
+.search [type=text] {
+  padding-left: 2rem;
+}
+.filter__select {
+  padding-top: 1rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.filter__input{
+  width: 16rem;
+  background-color: white;
+  border: 1px solid var(--secondary--color);
+  padding: 1.6rem;
+}
+.shop__container {
+  width: 100%;
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: var(--grid--gap--mobile);
+
+
+}
+.product__card {
+  width: 100%;
+  height: 30rem;
+  border-bottom: 2px dotted var(--border--color);
+}
+.product__image {
+  width: 100%;
+  height: 20rem;
+  background-color: var(--secondary--color);
+  border-radius: var(--border--radius);
+}
+.product__info {
+  width: 90%;
+  text-align: center;
+}
+.product__info h2:first-child {
+  padding-top: var(--padding--top--text);
+  padding-bottom: var(--padding--bottom--text);
+}
+.btn__back {
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: var(--border--radius);
+}
+.details {
+  width: 100%;
+  height: auto;
+  padding-top: var(--padding--top--mobile);
+}
+.details__image {
+  width: 100%;
+  height: 20rem;
+  background-color: var(--secondary--color);
+}
+.details__info {
+  width: 100%;
+  height: auto;
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+  line-height: 1.4rem;
+
+}
+.details__productname {
+  color: var(--main--color);
+}
+.details__author {
+}
+.details__price {
+  padding-bottom: var(--padding--top--mobile);
+}
+.details__description {
+  padding-bottom: var(--padding--top--mobile);
+  text-align: justify;
+}
+.btn__add {
+  padding: 1rem 2rem;
+  background-color: var(--main--color);
+  border-radius: var(--border--radius);
+  border: none;
+  color: white;
+}
+</style><style>:root {
+  /* COLORS */
+  --main--color: #ee090c;
+  --secondary--color: #f8f8f4;
+  --border--color: rgba(70, 70, 70, .2);
+  --text--color: black;
+  /* FONT SIZE */
+  --font--h1--size: 2rem;
+  --font--h2--size: 1.6rem;
+  --font--h3--size: 1.4rem;
+  --font--a--size: 1.8rem;
+  --font--p--size: 1.2rem;
+  /* PADDING */
+  --padding--top--mobile: 3rem;
+  --padding--top--text: 1.5rem;
+  --padding--bottom--text: 1rem;
+  --grid--gap--mobile: 1.5rem;
+  /* BORDER RADIUS */
+  --border--radius: .3rem;
+
+}
+</style><style>nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  width: 4rem;
+
+}
+
+.humo--logo {
+  width: 12rem;
+}
+
+.navigation__content {
+  display: none;
+  position: absolute;
+  top: 12rem;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding-bottom: var(--padding--top--mobile);
+
+}
+
+.navigation__content li,a {
+  font-size: var(--font--a--size);
+  text-decoration: none;
+  color: black;
+  padding-top: 1rem;
+}
+
+.navigation__main {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+
+}
+
+.navigation__main li {
+  border-bottom: 2px dotted var(--border--color);
+  padding-bottom: 1rem;
+}
+
+.navigation__second {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+
+}
+
+.navigation__second li:last-child {
+  border-bottom: 2px dotted var(--border--color);
+  padding-bottom: 1rem;
+}
+</style><style>
+footer {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  z-index: -999;
+}
+
+.footer__items {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.footer__nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  line-height: 1.6;
+  text-align: right;
+}
+
+.footer__nav a {
+  color: white;
+  opacity: .8;
+  font-size: 1.4rem;
+}
+
+.footer__social {
+  padding-top: var(--padding--top--mobile);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__social img {
+  width: 3rem;
+}
+
+.footer__logos img {
+  width: 2rem;
+}
+
+.footer__social img:first-child {
+  margin-right: 1rem;
+}
+
+.footer__logos {
+  padding-top: var(--padding--top--mobile);
+  display: flex;
+  justify-content: flex-end;
+}
+</style></head>
+  <body>
+    <main class="container">
+      <nav>
+        <img class="hamburger" src="./HUMO_files/nav.png">
+        <a href="http://localhost:8888/index.php?page=index"><img class="humo--logo" src="./HUMO_files/humo.png"></a>
+        <img src="./HUMO_files/shopping-cart.png">
+      </nav>
+      <section class="navigation__content">
+        <div class="navigation__main">
+          <ul>
+            <span class="text--color__red"><li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">ONZE LONGREAD</a></li></span>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">HOME</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">ACTUA</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">HUMOR</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">TV/FILM</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">MUZIEK</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">BOEKEN</a></li>
+          </ul>
+        </div>
+        <div class="navigation__second">
+        <ul>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">VIDEO</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">TV-GIDS</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">ZOEKERTJES</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">ABBONEMENT NEMEN</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">NU IN HUMO</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">LOGIN</a></li>
+            <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">REGISTREER</a></li>
+
+          </ul>
+        </div>
+      </section>
+      <a href="http://localhost:8888/index.php?page=index?"><button type="button" class="btn__back"> &lt; Terug</button></a>
+<section class="details">
+  <article class="details__image">
+
+  </article>
+  <article class="details__info">
+    <h1 class="details__productname"></h1><br>
+    <h3 class="details__author"></h3><br>
+    <strong><h2 class="details__price">EUR 0,00</h2></strong>
+    <p class="details__description"></p>
+    <a href="http://localhost:8888/index.php?page=index?"><button type="button" class="btn__add">Dit wordt 'em</button></a>
+  </article>
+
+
+</section>
+    </main>
+    <footer>
+      <section class="footer__items">
+          <div class="footer__nav">
+            <ul>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Privacybeleid</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Wedstrijdreglement</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Adverteren</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Gebruiksvoorwaarden</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Cookiebeleid</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Cookie instellingen</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Contact</a></li>
+              <li><a href="http://localhost:8888/index.php?page=detail&amp;id=100#">Colofon</a></li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <img class="hamburger" src="./HUMO_files/facebook.png">
+            <img class="hamburger" src="./HUMO_files/twitter.png">
+          </div>
+          <div class="footer__logos">
+          <img class="hamburger" src="./HUMO_files/dpgmedia.png">
+          <img class="hamburger" src="./HUMO_files/logo-cim.png">
+          <img class="hamburger" src="./HUMO_files/logo-jep.jpg">
+          <img class="hamburger" src="./HUMO_files/logo-rvdj.jpg">
+          </div>
+        </section>
+      </footer>
+    <script src="./HUMO_files/script.js"></script>  
+
+</body></html>

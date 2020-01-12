@@ -5,13 +5,13 @@
         <div class="search__container">
           <input type="hidden" name="action" value="search" class="search input__input"/>
           <input class="search" type="text" name="search" value="" placeholder="Zoek jouw producten hier"/>
-          <input type="submit" value="Zoeken" class="form__submit input input--button">
         </div>
       </form>
         <div class="filter__select">
           <form action="index.php" method="get" id="filterform">
           <input type="hidden" name="action" value="filter" class="filter__input"/>
             <select name="filterby" id="filterby" class="filter__input">
+            <option value="alle producten" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'alle producten'){echo 'selected';} ?>>alle producten</option>;
             <option value="boek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'boek'){echo 'selected';} ?>>boek</option>;
             <option value="eboek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'eboek'){echo 'selected';} ?>>eboek</option>
             <option value="abonnement" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'abonnement'){echo 'selected';} ?>>abbonement</option>
@@ -35,7 +35,7 @@
         </div>
         <div class="product__info">
           <h2 class="product__productname"><?php echo $product["productname"] ?></h2>
-          <h2 class="product__price"><?php echo '$' . $product["price"] ?></h2>
+          <h2 class="product__price"><?php echo money_format("%i", $product['price']);?></h2>
         </div>
       </article>
     </a>
