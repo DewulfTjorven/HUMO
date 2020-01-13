@@ -51,7 +51,7 @@ class OrdersController extends Controller {
   }
 
   private function _handleRemove() {
-    // Zit er een item in de session? dan remove wanneer remove klikt
+    // Zit er een item in de session? dan remove wanneer removen
     if (isset($_SESSION['cart'][$_POST['remove']])) {
       unset($_SESSION['cart'][$_POST['remove']]);
     }

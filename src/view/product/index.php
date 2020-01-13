@@ -1,12 +1,6 @@
 <section class="filter__container">
   <article>
     <div class="filter">
-      <form action="index.php" method="get" id="searchform">
-        <div class="search__container">
-          <input type="hidden" name="action" value="search" class="search input__input"/>
-          <input class="search" type="text" name="search" value="" placeholder="Zoek jouw producten hier"/>
-        </div>
-      </form>
         <div class="filter__select">
           <form action="index.php" method="get" id="filterform">
           <input type="hidden" name="action" value="filter" class="filter__input"/>
@@ -14,15 +8,10 @@
             <option value="alle producten" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'alle producten'){echo 'selected';} ?>>alle producten</option>;
             <option value="boek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'boek'){echo 'selected';} ?>>boek</option>;
             <option value="eboek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'eboek'){echo 'selected';} ?>>eboek</option>
-            <option value="abonnement" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'abonnement'){echo 'selected';} ?>>abbonement</option>
+            <option value="abonnement" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'abonnement'){echo 'selected';} ?>>abonnement</option>
             <option value="extra" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'extra'){echo 'selected';} ?>>extra</option>
             </select>
             <input type="submit" value="Filter" class="form__submit input input--button">
-
-
-
-
-
           </form>
         </div>
       </form>
@@ -37,7 +26,6 @@
     <a href="index.php?page=detail&product_id=<?php echo $product['product_id']; ?>">
       <article class="product__card">
         <div class="product__image">
-        <button class="btn__add" type="submit" name="action" value="add">Add to cart</button>
         </div>
         <div class="product__info">
           <h2 class="product__productname"><?php echo $product["productname"] ?></h2>

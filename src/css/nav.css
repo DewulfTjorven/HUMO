@@ -47,6 +47,14 @@ nav img {
   width: 80%;
   margin: auto;
   padding-top: var(--padding--top--mobile);
+}
+
+.navigation__second a {
+  width: 80%;
+  margin: auto;
+  padding-top: var(--padding--top--mobile);
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
 
 }
 

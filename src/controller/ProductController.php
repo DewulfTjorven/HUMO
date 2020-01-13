@@ -50,6 +50,13 @@ class ProductController extends Controller {
       exit();
     }
 
+    if (isset($_POST['submit']) && $_POST['action'] == 'add') {
+      $products = $this->productDAO->filterBySearch();
+    }else{
+      // Geen search value -> Alle producten tonen
+      $products = $this->productDAO->selectAllProducts();
+    }
+
     $this->set('product',$product);
 
 }

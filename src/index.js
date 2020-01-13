@@ -16,6 +16,9 @@ require('./css/footer.css');
         if (navigation.style.display === 'none') {
           navigation.style.display = 'block';
         }
+        else if (navigation.style.display === '') {
+          navigation.style.display = 'block';
+        }
         else {
           navigation.style.display = 'none';
         }

@@ -23,7 +23,7 @@
 
         <div class='summary'>
           <p class='order-total'><span>total:</span> <?php echo money_format("%i", $total);?></p>
-          <p><button class="btn-reversed btn" type="submit" id="checkout" name="action" value="checkout">Checkout</button></p>
+          <p><button class="btn__add" type="submit" id="checkout" name="action" value="checkout">Checkout</button></p>
         </div>
 
     </form>

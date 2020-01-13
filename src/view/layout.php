@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HUMO</title>
     <?php echo $css;?>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/jwj7qsq.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,300&display=swap" rel="stylesheet">
   </head>
   <body>
     <main class="container">
@@ -28,13 +29,13 @@
         </div>
         <div class="navigation__second">
         <ul>
-            <li><a href="#">VIDEO</a></li>
-            <li><a href="#">TV-GIDS</a></li>
-            <li><a href="#">ZOEKERTJES</a></li>
-            <li><a href="#">ABBONEMENT NEMEN</a></li>
-            <li><a href="#">NU IN HUMO</a></li>
-            <li><a href="#">LOGIN</a></li>
-            <li><a href="#">REGISTREER</a></li>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Tv-gids</a></li>
+            <li><a href="#">Zoekertjes</a></li>
+            <li><a href="#">Abonnement nemen</a></li>
+            <li><a href="#">Nu in HUMO</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Registreer</a></li>
 
           </ul>
         </div>

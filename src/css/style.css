@@ -17,56 +17,46 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 html, body {
   height: 100%;
 }
-/*
-@font-face {
-  font-family: SwissBlack;
-  src: url(../fonts/Swiss\ Black.ttf);
-}
 
-@font-face {
-  font-family: SwissBold;
-  src: url(../fonts/Swiss\ Bold.ttf);
-}
-
-@font-face {
-  font-family: SwissRegular;
-  src: url(../fonts/Swiss\ Regular.ttf);
-}
-@font-face {
-  font-family: NewsGothic;
-  src: url(../fonts/NewsGothicStd.otf);
-}
-*/
 h1 {
-  font-family: sans-serif;
   font-size: var(--font--h1--size);
   line-height: 2.4rem;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
 }
 
 h2 {
-  font-family: sans-serif;
   font-size: var(--font--h2--size);
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
 }
 
 h3 {
-  font-family: sans-serif;
   font-size: var(--font--h3--size);
+  font-weight: 300;
+  font-family: Oswald, sans-serif;
 }
 
 a,li {
-  font-family: sans-serif;
   font-size: var(--font--a--size);
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
 }
 
 p {
-  font-family: sans-serif;
   font-size: var(--font--p--size);
   line-height: 1.6rem;
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .text--color__red a {
@@ -96,10 +86,6 @@ p {
   border-radius: .3rem;
 }
 
-.search img {
-  width: 3rem;
-}
-
 .search::placeholder {
   padding-right: 2rem;
 }
@@ -112,12 +98,10 @@ p {
   padding-top: 1rem;
   width: 100%;
   margin: auto;
-  display: flex;
-  justify-content: flex-end;
 }
 
-.filter__input{
-  width: 16rem;
+.filter__input {
+  width: 85%;
   background-color: white;
   border: 1px solid var(--secondary--color);
   padding: 1.6rem;
@@ -224,7 +208,10 @@ p {
 
 .cart {
   width: 100%;
-  display: flex;
+}
+
+.cart h1 {
+  padding-bottom: var(--padding--top--mobile);
 }
 
 .item {
@@ -232,30 +219,43 @@ p {
   display: grid;
   grid-template-rows: auto auto;
   grid-gap: 1rem;
-  grid-template-columns: 4fr 1fr 1fr;
+  grid-template-columns: 6fr 1fr 1fr;
   border-radius: var(--border--radius);
-  padding-top: 2rem;
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+  border-bottom: 2px dotted var(--border--color);
+
+
 }
 
 .productname {
   grid-column: 1;
   grid-row: 1;
+  color: var(--main--color);
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+
 }
 
 .price {
   grid-column: 1;
   grid-row: 2;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
 }
 
 .quantity {
   grid-column: 2;
   grid-row: 1;
+  font-family: Oswald, sans-serif;
+  font-weight: 300;
 
 }
 
 .update {
   grid-column: 2;
   grid-row: 2;
+
 }
 
 .remove {
@@ -265,9 +265,17 @@ p {
 
 .total {
   grid-column: 1;
+
+}
+
+.order-total {
+  padding-bottom: var(--padding--top--mobile);
+
 }
 
 .summary {
   width: 100%;
   padding-top: var(--padding--top--mobile);
+  padding-bottom: calc(var(--padding--top--mobile) * 2);
+
 }
