@@ -18,6 +18,11 @@
             <option value="extra" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'extra'){echo 'selected';} ?>>extra</option>
             </select>
             <input type="submit" value="Filter" class="form__submit input input--button">
+
+
+
+
+
           </form>
         </div>
       </form>
@@ -32,6 +37,7 @@
     <a href="index.php?page=detail&product_id=<?php echo $product['product_id']; ?>">
       <article class="product__card">
         <div class="product__image">
+        <button class="btn__add" type="submit" name="action" value="add">Add to cart</button>
         </div>
         <div class="product__info">
           <h2 class="product__productname"><?php echo $product["productname"] ?></h2>
