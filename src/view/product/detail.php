@@ -9,9 +9,20 @@
     <strong><h2 class="details__price"><?php echo money_format("%i", $product['price']);?></h2></strong>
     <p class="details__description"><?php echo $product['description']; ?></p>
     <form method="post" action="index.php?page=cart">
-        <input type="number" value="quantity" id="quantity" class="quantity-input" name="quantity" placeholder="1" min="1" max-amount="10">
+        <input type="number" value="quantity" id="quantity" class="quantity-input" name="quantity" placeholder="1">
         <input type="hidden" name="product_id" value="<?php echo $product['product_id'];?>" />
         <button class="btn__add" type="submit" name="action" value="add">Add to cart</button>
+
+    <?php
+          if (isset($_POST['action'])) {
+          $_session['quantity'] = $_POST['quantity'];
+      }
+
+
+    ?>
+
+    <?php $_SESSION['quantity'];?>
+
     </form>
   </article>
 </section>
