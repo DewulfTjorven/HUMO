@@ -34,6 +34,9 @@ class OrdersController extends Controller {
       header('Location: index.php?page=cart');
       exit();
     }
+
+    $this->set('title', 'Winkelmandje');
+
   }
 
   private function _handleAdd() {

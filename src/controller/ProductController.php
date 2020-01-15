@@ -34,7 +34,7 @@ class ProductController extends Controller {
 
     // DAO resultaat in var steken
     $this->set('products', $products);
-    $this->set('title', 'index');
+    $this->set('title', 'HUMO');
 
   }
 

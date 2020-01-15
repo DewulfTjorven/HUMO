@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HUMO</title>
+    <title><?php echo $title ?></title>
     <?php echo $css;?>
     <link rel="stylesheet" href="https://use.typekit.net/jwj7qsq.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,300&display=swap" rel="stylesheet">
