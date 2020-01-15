@@ -3,6 +3,7 @@
     <div class="filter">
         <div class="filter__select">
           <form action="index.php" method="get" id="filterform">
+          <!-- <input class="search" type="text" placeholder="Zoek hier uw producten" value="" name="search"> -->
           <input type="hidden" name="action" value="filter" class="filter__input"/>
             <select name="filterby" id="filterby" class="filter__input">
             <option value="alle producten" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'alle producten'){echo 'selected';} ?>>alle producten</option>;

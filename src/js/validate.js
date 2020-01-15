@@ -4,7 +4,7 @@
     if (!$form.checkValidity()) {
       e.preventDefault();
 
-      const fields = $form.querySelectorAll(`.input`);
+      const fields = $form.querySelectorAll(`input`);
       fields.forEach(showValidationInfo);
 
       $form.querySelector(`.error`).innerHTML = `Some errors occured`;
@@ -23,11 +23,11 @@
     }
     if ($field.validity.rangeOverflow) {
       const max = $field.getAttribute(`max`);
-      message = `Too big, max ${max}`;
+      message = `Te groot, max ${max}`;
     }
     if ($field.validity.rangeUnderflow) {
       const min = $field.getAttribute(`min`);
-      message = `Too small, min ${min}`;
+      message = `Te klein, min ${min}`;
     }
     if ($field.validity.tooShort) {
       const min = $field.getAttribute(`minlength`);
@@ -69,9 +69,8 @@
     $form.noValidate = true;
     $form.addEventListener(`submit`, handleSubmitForm);
 
-    const fields = $form.querySelectorAll(`.input`);
+    const fields = $form.querySelectorAll(`input`);
     addValidationListeners(fields);
-    console.log('it validates');
   };
 
   init();

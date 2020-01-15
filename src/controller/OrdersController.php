@@ -16,6 +16,7 @@ class OrdersController extends Controller {
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'add') {
         $this->_handleAdd();
+        $_SESSION['info'] = 'Product werd toegevoegd';
         header('Location: index.php?page=detail&product_id=' . $_POST['product_id']);
         exit();
       }
@@ -25,8 +26,8 @@ class OrdersController extends Controller {
       if ($_POST['action'] == 'update') {
         $this->_handleUpdate();
       }
-      header('Location: index.php?page=cart');
-      exit();
+      /*header('Location: index.php?page=cart');
+      exit();*/
     }
     if (!empty($_POST['remove'])) {
       $this->_handleRemove();
@@ -44,7 +45,7 @@ class OrdersController extends Controller {
       }
       $_SESSION['cart'][$_POST['product_id']] = array(
         'product' => $product,
-        'quantity' => 0
+        'quantity' => $_POST['quantity'],
       );
     }
     $_SESSION['cart'][$_POST['product_id']]['quantity']++;
@@ -73,5 +74,11 @@ class OrdersController extends Controller {
       }
     }
   }
+
+  public function login() {
+    // Volledige function voo de cart met add, update en remove
+
+  }
+
 
 }

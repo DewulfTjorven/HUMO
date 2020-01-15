@@ -25,6 +25,18 @@ require('./css/footer.css');
       });
     }
 
+    /*
+
+    const btnAdd = document.querySelector('#btn__add');
+    const addedMessage = document.querySelector('.addedMessage');
+
+    // if statement to check if element exists -> no error
+    if (addedMessage) {
+      btnAdd.addEventListener('click', function() {
+        addedMessage.innerHTML = 'Het product werd tegevoegd';
+      });
+    }
+    */
 
   };
 

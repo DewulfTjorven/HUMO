@@ -23,7 +23,11 @@ $routes = array(
   'cart' => array(
     'controller' => 'Orders',
     'action' => 'cart'
-)
+  ),
+  'login' => array(
+    'controller' => 'Orders',
+    'action' => 'login'
+  )
 );
 
 if(empty($_GET['page'])) {

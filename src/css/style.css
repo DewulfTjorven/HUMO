@@ -26,6 +26,20 @@ html, body {
   height: 100%;
 }
 
+.box__info {
+  color: var(--main--color);
+  font-size: 1.6rem;
+  font-family: Oswald, sans-serif;
+  font-weight: 400;
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+}
+
+.error {
+  color: var(--main--color);
+  padding-bottom: var(--padding--top--mobile);
+}
+
 h1 {
   font-size: var(--font--h1--size);
   line-height: 2.4rem;
@@ -84,6 +98,7 @@ p {
   border: none;
   padding: 1.6rem;
   border-radius: .3rem;
+  margin-bottom: var(--padding--top--mobile);
 }
 
 .search::placeholder {
