@@ -73,6 +73,10 @@ p {
   font-style: normal;
 }
 
+.text--color__red {
+  color: var(--main--color);
+}
+
 .text--color__red a {
   color: var(--main--color);
 }
@@ -145,6 +149,15 @@ p {
   height: 20rem;
   background-color: var(--secondary--color);
   border-radius: var(--border--radius);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+.product__image img {
+  width: 75%;
 }
 
 .product__info {
@@ -294,3 +307,91 @@ p {
   padding-bottom: calc(var(--padding--top--mobile) * 2);
 
 }
+
+.login {
+  width: 100%;
+  height: 40rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.login h1 {
+  padding-bottom: var(--padding--top--mobile);
+
+}
+
+.login__input {
+  width: 100%;
+  background-color: var(--secondary--color);
+  border: none;
+  padding: 1.4rem;
+  border-radius: .3rem;
+  margin-bottom: var(--padding--top--mobile);
+}
+
+.login__input::placeholder {
+  padding-right: 2rem;
+}
+
+.login__input [type=text] {
+  padding-left: 2rem;
+}
+
+.login__options {
+  padding-top: 4rem;
+}
+
+.login__options a{
+  font-family: news-gothic-std, sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.register{
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.register h1{
+  padding-bottom: var(--padding--top--mobile);
+}
+
+.accept {
+  padding-top: var(--padding--top--mobile);
+  padding-bottom: var(--padding--top--mobile);
+}
+
+.input__medium {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.input__medium .medium {
+  width: 65%;
+}
+
+.input__medium .small {
+  width: 30%;
+
+}
+
+.small {
+  width: 25%;
+  align-items: flex-end;
+}
+

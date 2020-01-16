@@ -25,8 +25,16 @@ $routes = array(
     'action' => 'cart'
   ),
   'login' => array(
-    'controller' => 'Orders',
+    'controller' => 'Users',
     'action' => 'login'
+  ),
+  'register' => array(
+    'controller' => 'Users',
+    'action' => 'register'
+  ),
+  'overview' => array(
+    'controller' => 'Users',
+    'action' => 'overview'
   )
 );
 

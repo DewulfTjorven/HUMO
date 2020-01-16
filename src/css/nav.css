@@ -21,7 +21,7 @@ nav img {
   width: 100%;
   background-color: white;
   padding-bottom: var(--padding--top--mobile);
-
+  z-index: 999;
 }
 
 .navigation__content li,a {

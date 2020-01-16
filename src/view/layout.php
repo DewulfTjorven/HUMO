@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <main class="container">
-      <nav>
+    <main>
+      <nav class="container">
         <img class="hamburger" src="../images/icons/nav.png">
         <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
         <a href="index.php?page=cart"><img src="../images/icons/shopping-cart.png"></a>

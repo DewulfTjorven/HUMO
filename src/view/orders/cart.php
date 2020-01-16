@@ -1,3 +1,4 @@
+<section class="container">
   <div id="content" class="cart">
     <form action="index.php?page=cart" method="post" id="cartform">
 
@@ -20,12 +21,13 @@
           <?php
           }
           ?>
-
+    </form>
+    <form action="index.php?page=login" method="post" id="checkout">
         <div class='summary'>
           <p class='order-total'><span>total:</span> <?php echo money_format("%i", $total);?></p>
-          <form action="index.php?page=cart" method="post" id="checkout">
-          <a href="index.php?page=login"><button class="btn__add" type="submit" id="checkout" name="action" value="checkout">Checkout</button></a>
+          <button class="btn__add" type="submit" id="checkout" name="checkout" value="checkout">Checkout</button>
         </div>
-
     </form>
+
   </div>
+</section>

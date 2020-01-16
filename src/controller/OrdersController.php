@@ -12,7 +12,8 @@ class OrdersController extends Controller {
   }
 
   public function cart() {
-    // Volledige function voo de cart met add, update en remove
+    // form action -> naar waar moet je gaan na het submitten
+    // action van input -> action die je gebruikt in je controller
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'add') {
         $this->_handleAdd();
@@ -48,7 +49,7 @@ class OrdersController extends Controller {
       }
       $_SESSION['cart'][$_POST['product_id']] = array(
         'product' => $product,
-        'quantity' => $_POST['quantity'],
+        'quantity' => $_POST['quantity']-1,
       );
     }
     $_SESSION['cart'][$_POST['product_id']]['quantity']++;
@@ -77,11 +78,5 @@ class OrdersController extends Controller {
       }
     }
   }
-
-  public function login() {
-    // Volledige function voo de cart met add, update en remove
-
-  }
-
 
 }

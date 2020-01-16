@@ -4,7 +4,7 @@
     if (!$form.checkValidity()) {
       e.preventDefault();
 
-      const fields = $form.querySelectorAll(`input`);
+      const fields = $form.querySelectorAll(`.input`);
       fields.forEach(showValidationInfo);
 
       $form.querySelector(`.error`).innerHTML = `Some errors occured`;
@@ -16,26 +16,26 @@
   const showValidationInfo = $field => {
     let message;
     if ($field.validity.valueMissing) {
-      message = `Required`;
+      message = `Gelieve de verplichte velden in te vullen`;
     }
     if ($field.validity.typeMismatch) {
-      message = `Type not right`;
+      message = `De ingevulde waarde komt niet overeen met het veld`;
     }
     if ($field.validity.rangeOverflow) {
       const max = $field.getAttribute(`max`);
-      message = `Te groot, max ${max}`;
+      message = `Waarde is te groot, max ${max}`;
     }
     if ($field.validity.rangeUnderflow) {
       const min = $field.getAttribute(`min`);
-      message = `Te klein, min ${min}`;
+      message = `Waarde is te klein, min ${min}`;
     }
     if ($field.validity.tooShort) {
       const min = $field.getAttribute(`minlength`);
-      message = `Too short, minimum length is ${min}`;
+      message = `Te kort, u dient minimum ${min} karakters in te vullen`;
     }
     if ($field.validity.tooLong) {
       const max = $field.getAttribute(`maxlength`);
-      message = `Too long, maximum length is ${max}`;
+      message = `Te kort, u dient minimum ${max} karakters in te vullen`;
     }
     if (message) {
       $field.parentElement.querySelector(`.error`).textContent = message;
@@ -69,7 +69,7 @@
     $form.noValidate = true;
     $form.addEventListener(`submit`, handleSubmitForm);
 
-    const fields = $form.querySelectorAll(`input`);
+    const fields = $form.querySelectorAll(`.input`);
     addValidationListeners(fields);
   };
 
