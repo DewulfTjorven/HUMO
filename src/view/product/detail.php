@@ -26,4 +26,27 @@
       </form>
     </article>
   </section>
+
+  <h2 class="shop__ipad text--color__red">Misschien ook interessant:</h2>
+  <section class="shop__ipad shop__container">
+      <?php
+      foreach($products as $product){
+        ?>
+      <a href="index.php?page=detail&product_id=<?php echo $product['product_id']; ?>">
+        <article class="product__card">
+          <div class="product__image">
+            <img src="../images/products/<?php echo $product["image"] . ".jpg";?>" alt="<?php echo $product["image"];?>">
+          </div>
+          <div class="product__info">
+            <h2 class="product__productname"><?php echo $product["productname"] ?></h2>
+            <h2 class="product__price text--color__red"><?php echo money_format("%i", $product['price']);?></h2>
+          </div>
+        </article>
+      </a>
+        <?php
+      }
+    ?>
+
+  </section>
+
 </section>

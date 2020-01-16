@@ -47,4 +47,11 @@ class ProductDAO extends DAO {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
 
+  public function selectRecommended(){
+    $sql = "SELECT * FROM `products` ORDER BY RAND() LIMIT 3";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }
+
 }

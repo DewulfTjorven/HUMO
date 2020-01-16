@@ -59,3 +59,50 @@ nav img {
   font-weight: 400;
 
 }
+
+@media only screen and (min-width: 768px) {
+
+  .navigation__content {
+    height: auto;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .05), 0 10px 10px rgba(0, 0, 0, .05);
+
+  }
+
+  .navigation__main {
+    width: 80%;
+    margin: auto;
+    padding-top: var(--padding--top--mobile);
+
+  }
+
+  .navigation__second {
+
+    padding-bottom: var(--padding--top--mobile);
+
+  }
+
+  .navigation__main ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: var(--padding--top--mobile);
+
+  }
+
+  .navigation__second ul {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navigation__second a {
+    width: 80%;
+    margin: auto;
+    padding-top: var(--padding--top--mobile);
+    font-family: news-gothic-std, sans-serif;
+    font-weight: 400;
+
+  }
+}
