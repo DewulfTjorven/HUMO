@@ -3,7 +3,7 @@
 
   <section class="register">
   <h1>Maak een nieuw account aan</h1>
-  <form action="index.php?page=overview" method="post">
+  <form action="" method="post">
     <input class="login__input" type="text" name="" id="" placeholder="Uw gebruikersnaam *" required>
     <input class="login__input" type="email" name="" id="" placeholder="Uw Email *" required>
     <input class="login__input" type="password" name="" id="" placeholder="Uw wachtwoord *" required>
@@ -23,8 +23,9 @@
             </div>
         </div>
     </div>
-
-    <button class="btn__add" type="" id="" name="" value="">Checkout</button>
     </form>
+
+    <a href="index.php?page=overview"><button class="btn__add" type="" id="" name="" value="">Checkout</button></a>
+
   </section>
 </section>

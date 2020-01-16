@@ -14,9 +14,10 @@
             <p class='productname'><?php echo $item['product']['productname'];?></p>
             <p class='price'><?php echo money_format("%i", $item['product']['price']);?></p>
             <p class ="quantity"><input class="quantity" type="number" name="quantity[<?php echo $item['product']['product_id'];?>]" value="<?php echo $item['quantity'];?>" class="replace" /></p>
+            <p class ="korting"><input class="korting" type="text" name="korting" value=""/></p>
             <p class="update"><button type="submit" id="update-cart" class="btn-update" name="action" value="update">Update</button></p>
             <p class='remove'><button type="submit" class="btn remove-from-cart" name="remove" value="<?php echo $item['product']['product_id'];?>">Remove</button></p>
-            <!-- <p class='total'><?php echo money_format("%i", $itemTotal);?></p> -->
+            <p class='total'><?php echo money_format("%i", $itemTotal);?></p>
           </div>
           <?php
           }

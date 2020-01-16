@@ -9,7 +9,7 @@
               <select name="filterby" id="filterby" class="filter__input">
               <option value="alle producten" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'alle producten'){echo 'selected';} ?>>alle producten</option>;
               <option value="boek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'boek'){echo 'selected';} ?>>boek</option>;
-              <option value="eboek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'eboek'){echo 'selected';} ?>>eboek</option>
+              <option value="eboek" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'eboek'){echo 'selected';} ?>>e-book</option>
               <option value="abonnement" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'abonnement'){echo 'selected';} ?>>abonnement</option>
               <option value="extra" <?php if(!empty($_GET['filterby']) && $_GET['filterby'] == 'extra'){echo 'selected';} ?>>extra</option>
               </select>

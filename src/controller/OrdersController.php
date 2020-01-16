@@ -50,6 +50,7 @@ class OrdersController extends Controller {
       $_SESSION['cart'][$_POST['product_id']] = array(
         'product' => $product,
         'quantity' => $_POST['quantity']-1,
+        'korting' => $_POST['korting']
       );
     }
     $_SESSION['cart'][$_POST['product_id']]['quantity']++;

@@ -11,6 +11,7 @@ nav img {
 
 .humo--logo {
   width: 12rem;
+
 }
 
 .navigation__content {
@@ -52,13 +53,9 @@ nav img {
 .navigation__second a {
   width: 80%;
   margin: auto;
+  font-size: var(--font--a--size--ipad);
   padding-top: var(--padding--top--mobile);
   font-family: news-gothic-std, sans-serif;
   font-weight: 400;
 
-}
-
-.navigation__second li:last-child {
-  border-bottom: 2px dotted var(--border--color);
-  padding-bottom: 1rem;
 }

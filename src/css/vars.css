@@ -10,11 +10,17 @@
   --font--h3--size: 1.4rem;
   --font--a--size: 1.8rem;
   --font--p--size: 1.2rem;
+  /* FONT SIZE IPAD*/
+  --font--h1--size--ipad: calc(2rem * 1);
+  --font--h2--size--ipad: calc(1.6rem * 1);
+  --font--h3--size--ipad: calc(1.4rem * 1);
+  --font--a--size--ipad: calc(1.8rem * .7);
+  --font--p--size--ipad: calc(1.2rem * 1);
   /* PADDING */
   --padding--top--mobile: 1.5rem;
   --padding--top--text: 1.5rem;
   --padding--bottom--text: 1rem;
-  --grid--gap--mobile: 1.5rem;
+  --grid--gap--mobile: 1.2rem;
   /* BORDER RADIUS */
   --border--radius: .3rem;
 

@@ -15,7 +15,7 @@ class UsersController extends Controller {
 
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'login') {
-        header('Location: index.php?page=register');
+        header('Location: index.php?page=overview');
         exit();
       }
 

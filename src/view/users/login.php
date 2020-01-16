@@ -10,7 +10,7 @@
 
   <section class="login__options">
     <a href="index.php?page=register">Nog geen account? <span class="text--color__red">Registreer hier</span></a><br><br>
-    <a href="index.php?page=guest">Geen tijd? <span class="text--color__red">Ga door als gast</span></a>
+    <a href="index.php?page=overview">Geen tijd? <span class="text--color__red">Ga door als gast</span></a>
   </section>
   </section>
 </section>

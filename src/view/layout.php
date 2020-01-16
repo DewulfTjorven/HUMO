@@ -18,13 +18,13 @@
       <section class="navigation__content">
         <div class="navigation__main">
           <ul>
-            <span class="text--color__red"><li><a href="#">ONZE LONGREAD</a></li></span>
             <li><a href="#">HOME</a></li>
             <li><a href="#">ACTUA</a></li>
             <li><a href="#">HUMOR</a></li>
             <li><a href="#">TV/FILM</a></li>
             <li><a href="#">MUZIEK</a></li>
             <li><a href="#">BOEKEN</a></li>
+            <span class="text--color__red"><li><a href="#">ONZE LONGREAD</a></li></span>
           </ul>
         </div>
         <div class="navigation__second">
