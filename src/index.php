@@ -33,7 +33,7 @@ $routes = array(
     'action' => 'register'
   ),
   'overview' => array(
-    'controller' => 'Users',
+    'controller' => 'Orders',
     'action' => 'overview'
   )
 );

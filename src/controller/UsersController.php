@@ -28,13 +28,8 @@ class UsersController extends Controller {
   public function register() {
 
 
+    $this->set('title', 'Register');
 
   }
-
-  public function overview() {
-
-
-    }
-
 
 }

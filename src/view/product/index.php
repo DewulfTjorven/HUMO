@@ -16,6 +16,7 @@
               <input type="submit" value="Filter" class="form__submit input input--button">
             </form>
           </div>
+          <a href="index.php?page=cart" class="cart__desktop"><img src="../images/icons/shopping-cart.png"></a>
         </form>
       </div>
     </article>

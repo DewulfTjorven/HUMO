@@ -10,6 +10,7 @@
   </head>
   <body>
     <main>
+      <section class="nav--mobile">
       <nav class="container">
         <img class="hamburger" src="../images/icons/nav.png">
         <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
@@ -40,6 +41,34 @@
           </ul>
         </div>
       </section>
+      </section>
+
+      <section class="nav--desktop">
+      <div class="navigation__second">
+        <ul>
+            <li><a href="#">Video</a></li>
+            <li><a href="#">Tv-gids</a></li>
+            <li><a href="#">Zoekertjes</a></li>
+            <li><a href="#">Abonnement nemen</a></li>
+            <li><a href="#">Nu in HUMO</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Registreer</a></li>
+            <span class="text--color__red"><li><a href="#">ONZE LONGREAD</a></li></span>
+          </ul>
+        </div>
+        <div class="navigation__main">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ACTUA</a></li>
+            <li><a href="#">HUMOR</a></li>
+            <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
+            <li><a href="#">TV/FILM</a></li>
+            <li><a href="#">MUZIEK</a></li>
+            <li><a href="#">BOEKEN</a></li>
+          </ul>
+        </div>
+      </section>
+
       <?php echo $content;?>
     </main>
     <footer>

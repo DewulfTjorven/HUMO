@@ -5,6 +5,10 @@
           <div class="box__info"><?php echo $_SESSION['info']; ?></div>
   <?php endif; ?>
 
+  <div class="cart__detail">
+  <a href="index.php?page=cart" class="cart__desktop"><img src="../images/icons/shopping-cart.png"></a>
+  </div>
+
   <section class="details">
     <article class="details__image">
       <img src="../images/products/<?php echo $product["image"] . ".jpg";?>" alt="<?php echo $product["image"];?>">
@@ -17,9 +21,9 @@
       <form method="post" action="index.php?page=cart">
           <input type="hidden" name="product_id" value="<?php echo $product['product_id'];?>" />
           <p class="error"></p>
-          <input type="number" value="<?php if(!empty($_SESSION['cart']['quantity'])){ echo $_SESSION['cart']['quantity'];} ?>" id="quantity" class="input quantity-input" name="quantity" placeholder="Aantal" min=1 max=10 required><br><br>
+          <input type="number"  id="quantity" class="input quantity-input" name="quantity" placeholder="Aantal" min=1 max=10 required><br><br>
           <?php if($product["tag"] === "boek"){?>
-                <input type="text" class="storeValue search" placeholder="Kortingscode" name="search"><?php
+                <input type="text" class="storeValue search" placeholder="Kortingscode" name="korting" value="<?php if(!empty($_SESSION['cart']['korting'])){ echo $_SESSION['cart']['korting'];} ?>"><?php
           }
           ?>
           <button class="btn__add btn__korting" id="btn__add" type="submit" name="action" value="add">Add to cart</button>
@@ -27,8 +31,9 @@
     </article>
   </section>
 
-  <h2 class="shop__ipad text--color__red">Misschien ook interessant:</h2>
-  <section class="shop__ipad shop__container">
+  <h2 class="text--color__red shop__aanbevolen">Misschien ook interessant:</h2>
+  <section class="shop__aanbevolen shop__container">
+
       <?php
       foreach($products as $product){
         ?>

@@ -27,8 +27,6 @@ class OrdersController extends Controller {
       if ($_POST['action'] == 'update') {
         $this->_handleUpdate();
       }
-      /*header('Location: index.php?page=cart');
-      exit();*/
     }
     if (!empty($_POST['remove'])) {
       $this->_handleRemove();
@@ -43,15 +41,17 @@ class OrdersController extends Controller {
   private function _handleAdd() {
     // Als session array leeg is -> product met specifieke id in session steken
     if (empty($_SESSION['cart'][$_POST['product_id']])) {
+      error_reporting(0);
       $product = $this->productDAO->selectById($_POST['product_id']);
       if (empty($product)) {
         return;
       }
-      $_SESSION['cart'][$_POST['product_id']] = array(
-        'product' => $product,
-        'quantity' => $_POST['quantity']-1,
-        'korting' => $_POST['korting']
-      );
+        $_SESSION['cart'][$_POST['product_id']] = array(
+          'productname' => $productname,
+          'product' => $product,
+          'quantity' => $_POST['quantity']-1,
+          'korting' => $_POST['korting']
+          );
     }
     $_SESSION['cart'][$_POST['product_id']]['quantity']++;
   }
@@ -78,6 +78,15 @@ class OrdersController extends Controller {
         unset($_SESSION['cart'][$productId]);
       }
     }
+  }
+
+  public function overview() {
+    if(!empty($_POST["action"]) && $_POST["action"] == "pay") {
+        $orders = $this->productDAO->createOrder();
+        echo var_dump($_SESSION['cart']);
+    }
+
+    $this->set('title', 'Overzicht');
   }
 
 }
