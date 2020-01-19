@@ -22,6 +22,7 @@
           <input type="hidden" name="product_id" value="<?php echo $product['product_id'];?>" />
           <p class="error"></p>
           <input type="number"  id="quantity" class="input quantity-input" name="quantity" placeholder="Aantal" min=1 max=10 required><br><br>
+
           <?php if($product["tag"] === "boek"){?>
                 <input type="text" class="storeValue search" placeholder="Kortingscode" name="korting" value="<?php if(!empty($_SESSION['cart']['korting'])){ echo $_SESSION['cart']['korting'];} ?>"><?php
           }

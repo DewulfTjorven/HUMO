@@ -37,7 +37,7 @@ require('./css/footer.css');
 
 
 
-/*
+  /*
 
   const korting = () => {
 

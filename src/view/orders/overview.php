@@ -51,6 +51,7 @@
     <div class="pay">
     <p class='overview__total text--color__red'><span>total:</span> <?php echo money_format("%i", $total);?></p>
     <button class="btn__add btn__korting" id="btn__add" type="submit" name="action" value="pay">Add to cart</button>
+
     </div>
 
     </form>

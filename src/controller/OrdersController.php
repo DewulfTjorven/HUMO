@@ -47,7 +47,6 @@ class OrdersController extends Controller {
         return;
       }
         $_SESSION['cart'][$_POST['product_id']] = array(
-          'productname' => $productname,
           'product' => $product,
           'quantity' => $_POST['quantity']-1,
           'korting' => $_POST['korting']
@@ -81,12 +80,9 @@ class OrdersController extends Controller {
   }
 
   public function overview() {
-    if(!empty($_POST["action"]) && $_POST["action"] == "pay") {
-        $orders = $this->productDAO->createOrder();
-        echo var_dump($_SESSION['cart']);
-    }
-
-    $this->set('title', 'Overzicht');
+   /* if(!empty($_POST["action"]) && $_POST["action"] == "pay") {
+        $orders = $this->productDAO->placeOrder($_POST);
+    }*/
   }
 
 }

@@ -54,4 +54,15 @@ class ProductDAO extends DAO {
     return $stmt->fetchAll(PDO::FETCH_ASSOC);
   }
 
+  /*public function placeorder() {
+    $sql = "INSERT INTO `orders` (`productname`, `price`, `quantity`) VALUES (:productname, :price, :quantity)";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->bindValue("productname", $_SESSION['cart']['product']);
+    $stmt->bindValue("price", $_SESSION["price"]);
+    $stmt->bindValue("quantity", $_SESSION["quantity"]);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+  }*/
+
+
 }
