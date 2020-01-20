@@ -62,7 +62,7 @@
             <li><a href="#">HOME</a></li>
             <li><a href="#">ACTUA</a></li>
             <li><a href="#">HUMOR</a></li>
-            <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
+            <a href="index.php?page=index"><img class="humo--logo" src="../images/Humo.png"></a>
             <li><a href="#">TV/FILM</a></li>
             <li><a href="#">MUZIEK</a></li>
             <li><a href="#">BOEKEN</a></li>
