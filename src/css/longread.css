@@ -1,0 +1,74 @@
+@font-face {
+  font-family: VELTIC;
+  src:
+    url('../font/VELTICRegular.woff2') format('woff2'),
+    url('../font/VELTICRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(32, 33, 39, .2)),
+    url('../images/Longread/Header.jpg');
+
+  background-size: cover;
+}
+
+.longread__container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.longread__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  padding-top: 3rem;
+}
+
+.longread__nav a img {
+  width: 3rem;
+}
+
+.longread__nav a .humo {
+  width: 12rem;
+  padding-top: 2rem;
+}
+
+.longread__title {
+  width: 100%;
+  height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.longread__title h1 {
+
+  font-size: var(--longread--h1--size);
+  font-family: VELTIC;
+  text-shadow: rgba(1, 1, 1, 1);
+  color: var(--longread--main--color);
+}
+
+
+.longread__title h2 {
+
+  padding-top: var(--longread--padding--desktop);
+  font-size: var(--longread--h2--size);
+  font-family: VELTIC;
+}
+
+.introduction {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(2, 3, 9, 1), rgba(32, 33, 39, 1));
+
+}

@@ -1,7 +1,7 @@
 
 <section class="container">
   <div id="content" class="cart">
-    <form action="index.php?page=overview" method="post" id="cartform">
+    <form action="index.php?page=bevestiging" method="post" id="cartform">
 
     <?php if (!empty($_SESSION['info'])): ?>
           <div class="box__info"><?php echo $_SESSION['info']; ?></div>
@@ -9,7 +9,17 @@
 
         <h1>Uw overzicht</h1>
     <div class="cart__overview">
+
+
     <?php
+
+          if(empty($_SESSION['cart'])){
+            echo '
+            <p>U heeft geen items toegevoegd</p>
+
+            ';
+          }
+
           $total = 0;
           foreach($_SESSION['cart'] as $item) {
             $kortingscode = "HUMO20";
@@ -33,7 +43,11 @@
           <?php
           }
           ?>
+
+
     </div>
+
+
 
     <div class="user__overview">
       <p class='name'>Tjorven Dewulf</p>

@@ -9,6 +9,17 @@
           <div class="box__info"><?php echo $_SESSION['info']; ?></div>
         <?php endif; ?>
 
+        <?php
+
+        if(empty($_SESSION['cart'])){
+          echo '
+          <p>U heeft niets in uw winkelmandje</p>
+
+          ';
+        }
+
+        ?>
+
           <?php
           $total = 0;
           foreach($_SESSION['cart'] as $item) {

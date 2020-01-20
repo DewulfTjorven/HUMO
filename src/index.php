@@ -35,6 +35,14 @@ $routes = array(
   'overview' => array(
     'controller' => 'Orders',
     'action' => 'overview'
+  ),
+  'bevestiging' => array(
+    'controller' => 'Orders',
+    'action' => 'bevestiging'
+  ),
+  'longread' => array(
+    'controller' => 'Longread',
+    'action' => 'longread'
   )
 );
 

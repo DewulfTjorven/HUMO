@@ -14,6 +14,7 @@ class OrdersController extends Controller {
   public function cart() {
     // form action -> naar waar moet je gaan na het submitten
     // action van input -> action die je gebruikt in je controller
+    error_reporting(0);
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'add') {
         $this->_handleAdd();
@@ -79,10 +80,40 @@ class OrdersController extends Controller {
     }
   }
 
+
+
   public function overview() {
-   /* if(!empty($_POST["action"]) && $_POST["action"] == "pay") {
-        $orders = $this->productDAO->placeOrder($_POST);
-    }*/
+    error_reporting(0);
+    if (!empty($_POST['action'])) {
+      if ($_POST['action'] == 'pay') {
+        $this->_handleAdd();
+        $_SESSION['info'] = 'Product werd toegevoegd';
+        header('Location: index.php?page=detail&bevestiging');
+        exit();
+      }
+
+    }
+
+    $this->set('title', 'Overzicht');
+
+  }
+
+  public function bevestiging() {
+    if (!empty($_POST['action'])) {
+      if ($_POST['action'] == 'pay') {
+        $this->_handleCheckout();
+        $_SESSION['info'] = 'Product werd toegevoegd';
+      }
+    }
+
+    $this->set('title', 'Bevestigd');
+
+  }
+
+  private function _handleCheckout() {
+    if(!empty($_SESSION['cart'])){
+      unset($_SESSION['cart']);
+    }
   }
 
 }

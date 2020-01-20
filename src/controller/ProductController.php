@@ -52,6 +52,7 @@ class ProductController extends Controller {
       exit();
     }
 
+    $this->set('title', 'HUMO');
     $this->set('products',$products);
     $this->set('product',$product);
 

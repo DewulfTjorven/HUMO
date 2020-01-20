@@ -4,12 +4,23 @@
   --secondary--color: #f8f8f4;
   --border--color: rgba(70, 70, 70, .2);
   --text--color: black;
+  /* LONGREAD COLORS */
+  --longread--main--color: #f2f5e4;
+  /* LONGREAD FONT */
+  --longread--h1--size: 12rem;
+  --longread--h2--size: 3.2rem;
+  /* LONGREAD PADDING */
+  --longread--padding--desktop: 5rem;
+
   /* FONT SIZE */
   --font--h1--size: 2rem;
   --font--h2--size: 1.6rem;
   --font--h3--size: 1.4rem;
   --font--a--size: 1.8rem;
   --font--p--size: 1.2rem;
+
+
+
   /* FONT SIZE IPAD*/
   --font--h1--size--ipad: calc(2rem * 1);
   --font--h2--size--ipad: calc(1.6rem * 1);

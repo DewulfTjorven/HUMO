@@ -3,6 +3,8 @@ require('./css/style.css');
 require('./css/vars.css');
 require('./css/nav.css');
 require('./css/footer.css');
+require('./css/longread.css');
+
 
 {
 
