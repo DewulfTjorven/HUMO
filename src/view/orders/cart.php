@@ -53,8 +53,18 @@
     </form>
     <form action="index.php?page=login" method="post" id="checkout">
         <div class='summary'>
+          <?php
+
+          if(!empty($_SESSION['cart'])){?>
+
           <p class='order-total'><span>total:</span> <?php echo money_format("%i", $total);?></p>
           <button class="btn__add" type="submit" id="checkout" name="checkout" value="checkout">Checkout</button>
+
+          <?php
+          }
+
+          ?>
+
         </div>
     </form>
 
