@@ -14,7 +14,7 @@
       <section class="nav--mobile">
       <nav class="container">
         <img class="hamburger" src="../images/icons/nav.png">
-        <a href="index.php?page=index"><img class="humo--logo" src="../images/humo.png"></a>
+        <a href="index.php?page=index"><img class="humo--logo" src="../images/Humo.png"></a>
         <a href="index.php?page=cart"><img src="../images/icons/shopping-cart.png"></a>
       </nav>
       <section class="navigation__content">
