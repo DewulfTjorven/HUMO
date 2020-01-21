@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $title ?></title>
     <?php echo $css;?>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="https://use.typekit.net/jwj7qsq.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,300&display=swap" rel="stylesheet">
   </head>
@@ -102,8 +103,6 @@
       </footer>
       <?php } ?>
     </main>
-
     <?php echo $js; ?>
-    <script src="../js/validate.js"></script>
   </body>
 </html>

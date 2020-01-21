@@ -6,11 +6,17 @@
   --text--color: black;
   /* LONGREAD COLORS */
   --longread--main--color: #f2f5e4;
+  --longread--dark--color: #020409;
+  --longread--accent--color: #ffbf18;
   /* LONGREAD FONT */
   --longread--h1--size: 12rem;
   --longread--h2--size: 3.2rem;
   /* LONGREAD PADDING */
   --longread--padding--desktop: 5rem;
+  /* LONGREAD FONT SIZE */
+  --longread--h1--size: 2rem;
+  --longread--h2--size: 1.6rem;
+  --longread--p--size: 1.4rem;
 
   /* FONT SIZE */
   --font--h1--size: 2rem;
