@@ -110,7 +110,7 @@
   animation: animation 3000ms linear infinite both;
 }
 
-.summary {
+.summary__longread {
   width: 100%;
   height: auto;
   background-color: var(--longread--dark--color);

@@ -24,7 +24,7 @@
     <p>Dit boek maakt deel uit van onze nieuwste reeks, Soft science fiction met vele dystopische eigenschappen. Zichtbaar op HUMO.</p>
   </div>
 </section>
-<section class="summary" id="clickanchor1">
+<section class="summary__longread" id="clickanchor1">
   <div class="longread__container">
     <article class="summary__content">
       <div class="summary__text">
