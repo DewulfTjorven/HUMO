@@ -4,6 +4,7 @@
   <section class="register">
   <h1>Maak een nieuw account aan</h1>
   <form action="" method="post">
+    <p class="error"></p>
     <input class="login__input" type="text" name="" id="" placeholder="Uw gebruikersnaam *" required>
     <input class="login__input" type="email" name="" id="" placeholder="Uw Email *" required>
     <input class="login__input" type="password" name="" id="" placeholder="Uw wachtwoord *" required>
@@ -24,9 +25,7 @@
         </div>
     </div>
     </form>
-
     <a href="index.php?page=overview"><button class="btn__add" type="" id="" name="" value="">Checkout</button></a>
 
   </section>
 </section>
-<script src="../js/validate.js"></script>
