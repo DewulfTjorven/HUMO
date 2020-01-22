@@ -40,10 +40,23 @@
   <div class="longread__container">
     <article class="characters">
       <div class="vader">
+        <input type="text" name="vader" class="vader__input" placeholder="Naam voor Vader" min=3 max=15 required>
       </div>
       <div class="zoon">
+        <p class="error"></p>
+        <input type="text" name="vader" class="zoon__input input" placeholder="Naam voor Zoon">
       </div>
     </article>
+    <article class="name__input">
+      <p class="name__change">Je kan deze namen nog altijd veranderen.</p>
+      <a class="btn">Kies deze namen</a>
+    </article>
+  </div>
+</section>
+<section class="chapter1">
+  <div class="longread__container">
+    <p><span class="vader__naam"></span> ging dood<br>
+    <p><span class="zoon__naam"></span> ging dood<br>
   </div>
 </section>
 

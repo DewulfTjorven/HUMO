@@ -12,21 +12,17 @@
   --longread--h1--size: 12rem;
   --longread--h2--size: 3.2rem;
   /* LONGREAD PADDING */
-  --longread--padding--desktop: 5rem;
+  --longread--padding--desktop: 8rem;
   /* LONGREAD FONT SIZE */
   --longread--h1--size: 2rem;
   --longread--h2--size: 1.6rem;
-  --longread--p--size: 1.4rem;
-
+  --longread--p--size: 1.6rem;
   /* FONT SIZE */
   --font--h1--size: 2rem;
   --font--h2--size: 1.6rem;
   --font--h3--size: 1.4rem;
   --font--a--size: 1.8rem;
   --font--p--size: 1.2rem;
-
-
-
   /* FONT SIZE IPAD*/
   --font--h1--size--ipad: calc(2rem * 1);
   --font--h2--size--ipad: calc(1.6rem * 1);

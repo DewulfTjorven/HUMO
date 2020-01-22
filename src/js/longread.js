@@ -49,6 +49,53 @@
       }
     }
 
+    const vaderInput = document.querySelector('.vader__input');
+    const zoonInput = document.querySelector('.zoon__input');
+    const btn = document.querySelector('.btn');
+    const vaderFields = document.querySelector('.vader__naam');
+    const zoonFields = document.querySelector('.zoon__naam');
+
+    if (vaderInput.value === '' || zoonInput.value === '') {
+      vaderFields.innerHTML = 'Vader';
+      zoonFields.innerHTML = 'Vader';
+
+    }
+
+    if (vaderInput || zoonInput) {
+      btn.addEventListener('click', storeValue);
+
+    }
+
+    function storeValue() {
+      if (vaderInput || zoonInput) {
+        const vaderName = vaderInput.value;
+        const zoonName = zoonInput.value;
+        localStorage.setItem('vadernaam', vaderName);
+        localStorage.setItem('zoonnaam', zoonName);
+        if (localStorage.getItem('vadernaam') === '') {
+          localStorage.setItem('vadernaam', 'Vader');
+
+        }
+        if (localStorage.getItem('zoonnaam') === '') {
+          localStorage.setItem('zoonnaam', 'Zoon');
+
+        }
+      }
+
+
+
+      location.reload();
+
+    }
+
+    function getValue() {
+      if (vaderFields || zoonFields) {
+        vaderFields.innerHTML = localStorage.getItem('vadernaam');
+        zoonFields.innerHTML = localStorage.getItem('zoonnaam');
+      }
+    }
+    getValue();
+
     /* eslint-disable */
 
 
@@ -56,9 +103,6 @@
     ScrollReveal().reveal('.summary__text', {delay: 500});
     ScrollReveal().reveal('.vader', {delay: 800});
     ScrollReveal().reveal('.zoon', {delay: 800});
-
-
-
 
 
   };
