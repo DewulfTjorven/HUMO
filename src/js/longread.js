@@ -63,5 +63,10 @@
 
   };
 
-  init();
+
+  if(document.querySelector(".longread__nav")){
+    init();
+
+  }
+
 }
