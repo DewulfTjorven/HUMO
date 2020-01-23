@@ -30,6 +30,34 @@
 
     showNavigation();
 
+    function showHoofdstuk1 () {
+
+      const hoofdstuk2 = document.querySelector('.hoofdstuk2');
+      const btnHoofdstuk2 = document.querySelector('.hoofdstuk2__button');
+
+      if (hoofdstuk2) {
+        btnHoofdstuk2.addEventListener('click', function() {
+          if (hoofdstuk2.style.display === 'none') {
+            hoofdstuk2.style.display = 'grid';
+
+          }
+          else if (hoofdstuk2.style.display === 'grid') {
+            nahoofdstuk2v.style.display = 'none';
+          }
+          else if (hoofdstuk2.style.display === '') {
+            hoofdstuk2.style.display = 'grid';
+          }
+          else {
+            hoofdstuk2.style.display = 'none';
+          }
+        });
+      }
+    }
+
+    showHoofdstuk1();
+
+
+
     window.onscroll = function() {
       scrollNav();
     };
