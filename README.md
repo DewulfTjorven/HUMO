@@ -2,24 +2,11 @@
 
 ## Link naar project
 
-https://nameless-meadow-35306.herokuapp.com/
+### WEBSHOP
+https://polar-crag-08257.herokuapp.com/
 
-## Opdrachtomschrijven
+### LONGREAD
+https://polar-crag-08257.herokuapp.com/index.php?page=longread
 
-
-### Webshop
-
-#### Features
-
-
-#### Specificaties
-
-
-### Longread
-
-#### Features
-
-
-#### Specificaties
 
 
