@@ -306,14 +306,13 @@
 }
 
 .vader__naam {
-  color: #ffbf18;
+  color: white;
+  text-shadow: white 1rem;
 }
 
 .zoon__naam {
-  color: #ffbf18;
+  color:white;
 }
-
-
 
 .roadmap {
   width: 100%;
@@ -341,6 +340,10 @@
   transition: .2s ease;
 }
 
+.volgende{
+  color: white;
+}
+
 .btn__hoofdstuk:hover{
   opacity: 1;
   transition: .2s ease;
@@ -353,11 +356,23 @@
   left: 12rem;
 }
 
-.content__wrapper {
+.hoofdstuk8__button {
+  position: absolute;
+  top: 30rem;
+  left: 50rem;
+}
+
+.hoofdstuk16__button {
+  position: absolute;
+  top: 24rem;
+  left: 91rem;
+}
+
+.content__wrapper{
   width: 100%;
   height: auto;
   background-color: var(--longread--dark--color);
-  padding-top: var(--longread--padding--desktop);
+  padding-top: 16rem;
   padding-bottom: var(--longread--padding--desktop);
 
 }
@@ -375,8 +390,16 @@
   display: none;
 }
 
+.hoofdstuk8 {
+  display: none;
+}
+
+.hoofdstuk16 {
+  display: none;
+}
+
 .grid__item img {
-  width: 90%;
+  width: 100%;
 }
 
 .longread__grid h1{
@@ -434,6 +457,39 @@
 
 .btn__backtomap {
   color: white;
+}
+
+.quote__container {
+  width: 100%;
+  height: auto;
+  background-image:
+    linear-gradient(to bottom, rgba(04, 05, 09, 1), rgba(04, 05, 09, .94));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  width: 30%;
+  height: auto;
+  text-align: center;
+  padding-bottom: var(--longread--padding--desktop);
+}
+
+.quote h1{
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.quote p{
+  color: var(--longread--main--color);
+  padding-bottom: 1rem;
+
+}
+
+.quote h2{
+  color: #ffbf18;
 }
 
 /* Generated with Bounce.js. Edit at http://bouncejs.com#%7Bl%3A1%2Cs%3A%5B%7BT%3A%22t%22%2Ce%3A%22s%22%2Cd%3A3000%2CD%3A0%2Cf%3A%7Bx%3A0%2Cy%3A0%7D%2Ct%3A%7Bx%3A0%2Cy%3A20%7D%2Cs%3A1%2Cb%3A10%7D%5D%7D */

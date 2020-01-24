@@ -30,10 +30,37 @@
 
     showNavigation();
 
-    function showHoofdstuk1 () {
+
+    function showHoofdstuk () {
 
       const hoofdstuk2 = document.querySelector('.hoofdstuk2');
       const btnHoofdstuk2 = document.querySelector('.hoofdstuk2__button');
+      const hoofdstuk8 = document.querySelector('.hoofdstuk8');
+      const btnHoofdstuk8 = document.querySelector('.hoofdstuk8__button');
+      const hoofdstuk16 = document.querySelector('.hoofdstuk16');
+      const btnHoofdstuk16 = document.querySelector('.hoofdstuk16__button');
+      const volgende2 = document.querySelector('.volgende__hoofdstuk2');
+      const volgende8 = document.querySelector('.volgende__hoofdstuk8');
+      const volgende18 = document.querySelector('.volgende__hoofdstuk18');
+
+
+      if (hoofdstuk2) {
+        volgende2.addEventListener('click', function() {
+
+          hoofdstuk2.style.display = 'none';
+          hoofdstuk8.style.display = 'grid';
+
+        });
+      }
+
+      if (hoofdstuk8) {
+        volgende8.addEventListener('click', function() {
+
+          hoofdstuk8.style.display = 'none';
+          hoofdstuk16.style.display = 'grid';
+
+        });
+      }
 
       if (hoofdstuk2) {
         btnHoofdstuk2.addEventListener('click', function() {
@@ -41,20 +68,52 @@
             hoofdstuk2.style.display = 'grid';
 
           }
-          else if (hoofdstuk2.style.display === 'grid') {
-            nahoofdstuk2v.style.display = 'none';
-          }
           else if (hoofdstuk2.style.display === '') {
             hoofdstuk2.style.display = 'grid';
           }
-          else {
-            hoofdstuk2.style.display = 'none';
-          }
+          hoofdstuk8.style.display = 'none';
+          hoofdstuk16.style.display = 'none';
+
+
         });
+
       }
+
+      if (hoofdstuk8) {
+        btnHoofdstuk8.addEventListener('click', function() {
+          if (hoofdstuk8.style.display === 'none') {
+            hoofdstuk8.style.display = 'grid';
+          }
+          else if (hoofdstuk8.style.display === '') {
+            hoofdstuk8.style.display = 'grid';
+          }
+          hoofdstuk2.style.display = 'none';
+          hoofdstuk16.style.display = 'none';
+
+
+        });
+
+      }
+
+      if (hoofdstuk16) {
+        btnHoofdstuk16.addEventListener('click', function() {
+          if (hoofdstuk16.style.display === 'none') {
+            hoofdstuk16.style.display = 'grid';
+          }
+          else if (hoofdstuk16.style.display === '') {
+            hoofdstuk16.style.display = 'grid';
+          }
+          hoofdstuk2.style.display = 'none';
+          hoofdstuk8.style.display = 'none';
+
+        });
+
+      }
+
     }
 
-    showHoofdstuk1();
+    showHoofdstuk();
+
 
 
 
@@ -146,13 +205,12 @@
     ScrollReveal().reveal('.vader', {delay: 800});
     ScrollReveal().reveal('.zoon', {delay: 800});
     ScrollReveal().reveal('.name__input', {delay: 1000});
-    ScrollReveal().reveal('.chapter1__wrapper', {delay: 1500});
     ScrollReveal().reveal('.longread__title__h1', {delay: 1000});
+    ScrollReveal().reveal('.roadmap', {delay: 1000});
 
 
 
-
-  };
+  }
 
 
   if(document.querySelector(".longread__nav")){
@@ -161,3 +219,4 @@
   }
 
 }
+roadmap
