@@ -205,7 +205,9 @@
     ScrollReveal().reveal('.zoon', {delay: 800});
     ScrollReveal().reveal('.name__input', {delay: 1000});
     ScrollReveal().reveal('.longread__title__h1', {delay: 1000});
-    ScrollReveal().reveal('.roadmap', {delay: 1000});
+    if(document.querySelector('.roadmap')){
+      ScrollReveal().reveal('.roadmap', {delay: 1000});
+    }
     ScrollReveal().reveal('.grid__delay1', {delay: 1000});
     ScrollReveal().reveal('.grid__delay2', {delay: 1300});
     ScrollReveal().reveal('.grid__delay3', {delay: 1600});
@@ -223,4 +225,3 @@
   }
 
 }
-roadmap
