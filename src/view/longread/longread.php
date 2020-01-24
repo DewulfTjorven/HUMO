@@ -35,14 +35,16 @@
       </div>
     </article>
     <article class="characters">
+      <form action=""></form>
       <div class="vader">
-        <input type="text" name="vader" class="vader__input" placeholder="Kies een naam voor Vader" min=3 max=15 required>
+        <input type="text" name="vader" class="vader__input input" placeholder="Kies een naam voor Vader" min=3 max=15 required>
         <span class="vader__naam">
       </div>
       <div class="zoon">
-        <input type="text" name="vader" class="zoon__input input" placeholder="Kies een naam voor Zoon">
+        <input type="text" name="vader" class="zoon__input input" placeholder="Kies een naam voor Zoon" min=3 max=15 required>
         <span class="zoon__naam"></span>
       </div>
+</form>
     </article>
     <article class="name__input">
       <a class="btn">Kies deze namen</a><br>

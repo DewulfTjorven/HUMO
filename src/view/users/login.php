@@ -14,6 +14,3 @@
   </section>
   </section>
 </section>
-
-<script src="../js/validate.js"></script>
-
