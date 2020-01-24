@@ -41,7 +41,6 @@
       const btnHoofdstuk16 = document.querySelector('.hoofdstuk16__button');
       const volgende2 = document.querySelector('.volgende__hoofdstuk2');
       const volgende8 = document.querySelector('.volgende__hoofdstuk8');
-      const volgende18 = document.querySelector('.volgende__hoofdstuk18');
 
 
       if (hoofdstuk2) {
@@ -199,14 +198,18 @@
 
     /* eslint-disable */
 
-
-    ScrollReveal().reveal('.longread__btn', {delay: 1000});
+    ScrollReveal().reveal('.longread__nav', {delay: 1500});
+    ScrollReveal().reveal('.header__content', {delay: 1500});
     ScrollReveal().reveal('.summary__text', {delay: 500});
     ScrollReveal().reveal('.vader', {delay: 800});
     ScrollReveal().reveal('.zoon', {delay: 800});
     ScrollReveal().reveal('.name__input', {delay: 1000});
     ScrollReveal().reveal('.longread__title__h1', {delay: 1000});
     ScrollReveal().reveal('.roadmap', {delay: 1000});
+    ScrollReveal().reveal('.grid__delay1', {delay: 1000});
+    ScrollReveal().reveal('.grid__delay2', {delay: 1300});
+    ScrollReveal().reveal('.grid__delay3', {delay: 1600});
+
 
 
 
