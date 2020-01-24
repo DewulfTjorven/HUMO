@@ -50,22 +50,20 @@
   </div>
 <section class="content__wrapper" id="verhaal">
   <div class="longread__container">
-    <div class="longread__grid verhaal">
-      <div class="grid__item grid1 grid__delay1">
+    <div class="longread__grid__verhaal">
+      <div class="grid__delay1">
         <h2>De man</h2>
         <br>
         <p><span class="vader__naam"></span> gaat de hele roman door. Hij is de vader van de jongen en gelooft dat hij door God is toevertrouwd om de jongen te beschermen en hem te beschermen tegen kwaad en het kwaad in de wereld - zelfs als dat betekent dat hij wordt gedood voordat de slechteriken hem kunnen bereiken . Hij vraagt ​​zich af of hij het in zich heeft om zijn eigen zoon, de enige lichtbron in de wereld van <span class="vader__naam"></span>, schade te berokkenen. Hij moet zichzelf en zijn zoon tot extreme maatregelen dwingen om te overleven. De verbinding die de <span class="vader__naam"></span> met zijn zoon voelt, is bijna heilig en in de roman brengt <span class="vader__naam"></span> grote offers om zijn zoon te laten voortleven en een toekomst te hebben in een wereld die zwak is geworden. Hij laat zijn zoon zien hoe hij het vuur moet dragen, eerst met zijn hulp, en vervolgens later zonder hem.
 </p>
       </div>
-      <div class="grid__item grid2 grid__delay2">
+      <div class="grid__delay2">
       <h2>De zoon</h2>
       <br>
       <p><span class="zoon__naam"></span> wordt de hele roman niet genoemd. Terwijl de man en <span class="zoon__naam"></span> onderweg zijn, is de <span class="zoon__naam"></span> e enige lichtbron in het leven van zijn vader. Evenzo is de man alles wat de <span class="zoon__naam"></span> heeft, en <span class="zoon__naam"> </span> wil niet leven tenzij zijn vader bij hem blijft. De <span class="zoon__naam"> </span> is sterk en veerkrachtig, maar ook gevoelig en medelevend. Wanneer de man en de <span class="zoon__naam"> </span> onderweg anderen tegenkomen, toont <span class="zoon__naam"></span> meer sympathie voor hen, terwijl zijn vader meer bezorgd is over het in leven houden van de twee. Het is <span class="zoon__naam"></span> die de man ertoe brengt om vriendelijkheid te tonen aan anderen op de weg, hoe tegenzin deze vriendelijkheid ook wordt gegeven. Een van de topprioriteiten van de <span class="zoon__naam"> </span> is om een ​​goede kerel te zijn. Hij wil ervoor zorgen dat hij en zijn vader mensen helpen en het vuur dragen. Terwijl <span class="zoon__naam"> </span> de bron is van alle kracht van de man, beseft de man niet hoeveel <span class="zoon__naam"> </span> zich zorgen maakt om hem, en hoeveel de wil van <span class="zoon__naam"> </span> om te leven afhankelijk is van zijn vader.
 </p>
       </div>
-      <div class="grid__item grid3">
-      </div>
-      <div class="grid__item grid5 grid__delay3">
+      <div class="grid__delay3">
       <h2>The Road</h2>
       <br>
       <p>De wereld van The Road is medogeloos. Kanibalen, bandieten, verkrachters en het verwoeste landschap scheppen een tof sfeertje. Niet alleen zijn mensen in een schaarse hoeveelheid aanwezig, als deze er zijn zullen ze je willen doden. Waarom? Voor je spullen natuurlijk. Voedsel, water, wapens en ander materiaal dat hen zou kunnen helpen om te overleven in deze hel. Naast de Vader en zijn zoon zijn er nog andere interessante personage's in het boek. Zoals de RoadAgents. De roadagents en leden van gemeenten zijn de slechteriken, en zij zijn degenen waar de man en de jongen bang voor zijn en op moeten letten. Ze verkrachten, doden en eten andere mensen, waarvan de man en de jongen meerdere keren getuigen in de roman. </p>
@@ -210,17 +208,11 @@ In een supermarkt vindt <span class="vader__naam"></span>
 
 <section class="buy" id="koop">
 <h1>Wilt u meer lezen?</h1>
-<a href="http://localhost:8888/index.php?page=detail&product_id=6" class="btn animate">Koop The Road</a><br>
-<a href="http://localhost:8888/index.php?action=filter&filterby=boek" class="btn orange">Meer zoals dit</a><br>
-
+<a href="https://polar-crag-08257.herokuapp.com/index.php?page=detail&product_id=6" class="btn animate">Koop The Road</a><br>
+<a href="https://polar-crag-08257.herokuapp.com/index.php?action=filter&filterby=boek" class="btn orange">Meer zoals dit</a><br>
 </section>
 
 <section class="footer">
 </section>
-
-
-
-
-
 
 <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
