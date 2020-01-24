@@ -17,9 +17,9 @@
     </div>
   </div>
   <div class="header__content">
-    <p>The Road is een interactief verhaal gebasseerd op het boek geschrven door Cormac MCCarthy die werd uitgebracht in 2006.</p>
+    <p>The Road is een interactief verhaal gebaseerd op het boek geschreven door Cormac MCCarthy die werd uitgebracht in 2006.</p>
     <a href="#clickanchor1" class="longread__btn">Begin jouw verhaal</a>
-    <p>Dit boek maakt deel uit van onze nieuwste reeks, Soft science fiction met vele dystopische eigenschappen. Zichtbaar op HUMO.</p>
+    <p>Dit boek maakt deel uit van onze nieuwste reeks, Soft science Fiction met vele dystopische eigenschappen. Verkrijgbaar op HUMO.</p>
   </div>
 </section>
 <section class="summary__longread" id="clickanchor1">
@@ -27,11 +27,11 @@
     <article class="summary__content">
       <div class="summary__text">
         <h1 class="longread__title">Over The Road</h1>
-        <p>Een vader en zijn zoon doorkruisen het verwoeste landschap van Amerika. Niets beweegt in het uitgestrekte vlakte, behalve de as in de wind. Het is koud. Het sneeuwt. De lucht is donker. Hun bestemming is de zee, hoewel ze niet weten wat hen daar te wachten staat, als er al iets is. Ze hebben niets, alleen een pistool met 2 kogels  om zich te verdedigen tegen de wetteloze bandieten die de weg besluipen, de kleren die ze dragen, een kar met opruiming voedsel – en elkaar. Ze zijn alles voor elkaar. Maar zullen ze het overleven?</p>
+        <p>Een vader en zijn zoon doorkruisen het verwoeste landschap van Amerika. Niets beweegt in de uitgestrekte vlakte, behalve de as in de wind. Het is koud. Het sneeuwt. De lucht is donker. Hun bestemming is de zee, hoewel ze niet weten wat hen daar te wachten staat, als er al iets is. Ze hebben niets, alleen een pistool met 2 kogels om zich te verdedigen tegen de wetteloze bandieten die de weg besluipen, de kleren die ze dragen, een kar met voedsel – en elkaar. Ze zijn alles voor elkaar. Maar zullen ze het overleven?</p>
       </div>
       <div class="summary__text">
-        <h1 class="longread__title">Kies je eigen namen</h1>
-        <p>The Road door Cormac McCarthy , gepubliceerd in 2006, gaat over een vader en zijn zoon hun reis door een verwoest Amerika enkele jaren na een apocalyptische gebeurtenis. In het boek worden nooit namen gebruikt, alleen vader en zoon. Deze Longread is een interactieve webpagina die u toelaat om de namen van vader en zoon te kiezen. Breng jij het avontuur tot leven met je eigen namen of laat je het liever zo? Aan jouw de keuze.</p>
+        <h1 class="longread__title">Jij beslist</h1>
+        <p>The Road door Cormac McCarthy , gepubliceerd in 2006, gaat over een vader en zijn zoon hun reis door een verwoest Amerika enkele jaren na een apocalyptische gebeurtenis. In het boek worden nooit namen gebruikt, alleen vader en zoon. Deze Longread is een interactieve webpagina die u toelaat om de namen van vader en zoon te kiezen. Jij kiest ook waar jij jouw avontuur begint op de roadmap. Be Safe.</p>
       </div>
     </article>
     <article class="characters">
@@ -54,19 +54,19 @@
       <div class="grid__delay1">
         <h2>De man</h2>
         <br>
-        <p><span class="vader__naam"></span> gaat de hele roman door. Hij is de vader van de jongen en gelooft dat hij door God is toevertrouwd om de jongen te beschermen en hem te beschermen tegen kwaad en het kwaad in de wereld - zelfs als dat betekent dat hij wordt gedood voordat de slechteriken hem kunnen bereiken . Hij vraagt ​​zich af of hij het in zich heeft om zijn eigen zoon, de enige lichtbron in de wereld van <span class="vader__naam"></span>, schade te berokkenen. Hij moet zichzelf en zijn zoon tot extreme maatregelen dwingen om te overleven. De verbinding die de <span class="vader__naam"></span> met zijn zoon voelt, is bijna heilig en in de roman brengt <span class="vader__naam"></span> grote offers om zijn zoon te laten voortleven en een toekomst te hebben in een wereld die zwak is geworden. Hij laat zijn zoon zien hoe hij het vuur moet dragen, eerst met zijn hulp, en vervolgens later zonder hem.
+        <p><span class="vader__naam"></span> is één van de hoofdpersonage's. Hij is de vader van de jongen en gelooft dat hij door God is toevertrouwd om de jongen te beschermen en hem te beschermen tegen kwaad en onrecht in de wereld - zelfs als dat betekent dat hij wordt gedood voordat de slechteriken hem kunnen bereiken . Hij vraagt ​​zich af of hij het in zich heeft om zijn eigen zoon, de enige lichtbron in de wereld van <span class="vader__naam"></span>, schade te berokkenen. Hij moet zichzelf en zijn zoon tot extreme maatregelen dwingen om te overleven. De verbinding die de <span class="vader__naam"></span> met zijn zoon voelt, is bijna heilig en in de roman brengt <span class="vader__naam"></span> grote offers om zijn zoon te laten voortleven en een toekomst te hebben in een wereld die zwak is geworden. Hij laat zijn zoon zien hoe hij het vuur moet dragen, eerst met zijn hulp, en vervolgens later zonder hem.
 </p>
       </div>
       <div class="grid__delay2">
       <h2>De zoon</h2>
       <br>
-      <p><span class="zoon__naam"></span> wordt de hele roman niet genoemd. Terwijl de man en <span class="zoon__naam"></span> onderweg zijn, is de <span class="zoon__naam"></span> e enige lichtbron in het leven van zijn vader. Evenzo is de man alles wat de <span class="zoon__naam"></span> heeft, en <span class="zoon__naam"> </span> wil niet leven tenzij zijn vader bij hem blijft. De <span class="zoon__naam"> </span> is sterk en veerkrachtig, maar ook gevoelig en medelevend. Wanneer de man en de <span class="zoon__naam"> </span> onderweg anderen tegenkomen, toont <span class="zoon__naam"></span> meer sympathie voor hen, terwijl zijn vader meer bezorgd is over het in leven houden van de twee. Het is <span class="zoon__naam"></span> die de man ertoe brengt om vriendelijkheid te tonen aan anderen op de weg, hoe tegenzin deze vriendelijkheid ook wordt gegeven. Een van de topprioriteiten van de <span class="zoon__naam"> </span> is om een ​​goede kerel te zijn. Hij wil ervoor zorgen dat hij en zijn vader mensen helpen en het vuur dragen. Terwijl <span class="zoon__naam"> </span> de bron is van alle kracht van de man, beseft de man niet hoeveel <span class="zoon__naam"> </span> zich zorgen maakt om hem, en hoeveel de wil van <span class="zoon__naam"> </span> om te leven afhankelijk is van zijn vader.
+      <p><span class="zoon__naam"></span>is het tweede hoofdpersonage. Terwijl de man en <span class="zoon__naam"></span> onderweg zijn, is  <span class="zoon__naam"></span> de enige lichtbron in het leven van zijn vader. Evenzo is de man alles wat de <span class="zoon__naam"></span> heeft, en <span class="zoon__naam"> </span> wil niet leven tenzij zijn vader bij hem blijft. <span class="zoon__naam"> </span> is sterk en veerkrachtig, maar ook gevoelig en medelevend. Wanneer de man en  <span class="zoon__naam"> </span> onderweg anderen tegenkomen, toont <span class="zoon__naam"></span> meer sympathie voor hen, terwijl zijn vader meer bezorgd is over het in leven houden van de twee. Het is <span class="zoon__naam"></span> die de man ertoe brengt om vriendelijkheid te tonen aan anderen op de weg, hoe tegenzin deze vriendelijkheid ook wordt gegeven. Een van de topprioriteiten van  <span class="zoon__naam"> </span> is om een ​​goede kerel te zijn. Hij wil ervoor zorgen dat hij en zijn vader mensen helpen en het vuur dragen. Terwijl <span class="zoon__naam"> </span> de bron is van alle kracht van de man, beseft de man niet hoeveel <span class="zoon__naam"> </span> zich zorgen maakt om hem, en hoeveel de wil van <span class="zoon__naam"> </span> om te leven afhankelijk is van zijn vader.
 </p>
       </div>
       <div class="grid__delay3">
       <h2>The Road</h2>
       <br>
-      <p>De wereld van The Road is medogeloos. Kanibalen, bandieten, verkrachters en het verwoeste landschap scheppen een tof sfeertje. Niet alleen zijn mensen in een schaarse hoeveelheid aanwezig, als deze er zijn zullen ze je willen doden. Waarom? Voor je spullen natuurlijk. Voedsel, water, wapens en ander materiaal dat hen zou kunnen helpen om te overleven in deze hel. Naast de Vader en zijn zoon zijn er nog andere interessante personage's in het boek. Zoals de RoadAgents. De roadagents en leden van gemeenten zijn de slechteriken, en zij zijn degenen waar de man en de jongen bang voor zijn en op moeten letten. Ze verkrachten, doden en eten andere mensen, waarvan de man en de jongen meerdere keren getuigen in de roman. </p>
+      <p>De wereld van The Road is medogeloos. Kanibalen, bandieten, verkrachters en het verwoeste landschap scheppen een tof sfeertje. Niet alleen zijn mensen in een schaarse hoeveelheid aanwezig, als deze er zijn zullen ze je willen doden. Waarom? Voor je spullen natuurlijk. Voedsel, water, wapens en ander materiaal dat hen zou kunnen helpen om te overleven in deze hel. Naast de Vader en zijn zoon zijn er nog andere interessante personage's in het boek. Zoals de RoadAgents. De roadagents en leden van gemeenten zijn de slechteriken, en zij zijn degenen waar de man en de jongen bang voor zijn en op moeten letten. Ze verkrachten, doden en eten andere mensen, waarvan de man en de jongen meerdere keren getuigen in de roman.</p>
 </p>
       </div>
     </div>
@@ -89,11 +89,11 @@
   <div class="longread__container">
 
     <div class="longread__grid hoofdstuk2">
-      <h1 class="grid__item grid1">HOODSTUK 2: <br>EN ZOON VETREKKEN ZUID NAAR HET PAD TUSSEN DE BERGEN</h1>
+      <h1 class="grid__item grid1">HOODSTUK 2: <br>VADER EN ZOON VETREKKEN ZUID NAAR HET PAD TUSSEN DE BERGEN</h1>
       <div class="grid__item grid2">
         <p><span class="vader__naam"></span>
 en <span class="zoon__naam"></span>
- gaan verder naar het zuiden. Ze wandelen wekenlang door het ruige landschap, langs oude aluminium huizen en verbrande landschappen. Ze vechten tegen de koude nachten en de man maakt zich zorgen over het in goede conditie houden van hun schoenen en het vinden van hun volgende voedselbron. Ze eten spaarzaam en kijken uit voor de bloedstromen, straatbezoekers en plunderaars. Ze stoppen in een oude schuur, waar lichamen aan de spanten hangen. <span class="vader__naam"></span>
+ gaan verder naar het zuiden. Ze wandelen wekenlang door het ruige landschap, langs oude aluminium huizen en verbrande landschappen. Ze vechten tegen de koude nachten en de man maakt zich zorgen over het in goede conditie houden van hun schoenen en het vinden van hun volgende voedselbron. Ze eten spaarzaam en kijken uit voor de kanibalen, straatbezoekers en plunderaars. Ze stoppen in een oude schuur, waar lichamen aan de spanten hangen. <span class="vader__naam"></span>
  en <span class="zoon__naam"></span>
  praten heel weinig en sjokken door het meedogenloze landschap.</p>
       </div>
@@ -126,7 +126,7 @@ In een supermarkt vindt <span class="vader__naam"></span>
     </div>
 
     <div class="longread__grid hoofdstuk8">
-      <h1 class="grid__item grid1">HOODSTUK 8: <br>VRIEZENDE REGEN EN LANGE NACHEN, MAAR WE MOETEN DOOR</h1>
+      <h1 class="grid__item grid1">HOODSTUK 8: <br>VRIEZENDE REGEN EN LANGE NACHTEN, MAAR WE MOETEN DOOR</h1>
       <div class="grid__item grid2">
         <p><span class="vader__naam"></span>
  en <span class="zoon__naam"></span>
@@ -134,14 +134,14 @@ In een supermarkt vindt <span class="vader__naam"></span>
  hun kleren te drogen. <span class="zoon__naam"></span>
  vraagt ​​om vuur en <span class="vader__naam"></span>
  verontschuldigt zich maar vertelt hem dat hij de aansteker heeft laten vallen. <span class="zoon__naam"></span>
- vraagt ​​of de slechteriken zijn dat mensen de mensen in de kelder gaan opeten. <span class="vader__naam"></span>
+ vraagt ​​of het slechteriken zijn dat mensen de mensen in de kelder gaan opeten. <span class="vader__naam"></span>
  zegt hem ja. <span class="zoon__naam"></span>
  vraagt ​​of dat is waarom ze de mensen in de kelder niet konden helpen, of dat komt omdat de slechte mensen hen ook zouden hebben opgegeten. <span class="vader__naam"></span>
  zegt opnieuw ja, dat ze het niet konden helpen anders waren ze misschien ook opgegeten.
 </p>
       </div>
       <div class="grid__item grid3">
-      <P>Ze passeren steden met reclameborden die niet meer bestaan ​​voor reclame, de advertenties overschilderd met waarschuwingen. Uit appels en uitgehongerd zoeken ze wanhopig naar voedsel. <span class="zoon__naam"></span>
+      <P>Ze passeren steden met reclameborden die niet meer bestaan ​​voor reclame, de advertenties overschilderd met waarschuwingen. uitgedroogd, uitgeput en uitgehongerd zoeken ze wanhopig naar voedsel. <span class="zoon__naam"></span>
  vertelt zijn vader dat ze nooit iemand zullen eten, hoe hongerig ze ook worden. Hij wil ervoor zorgen dat dit waar is en <span class="vader__naam"></span>
  bevestigt het. <span class="zoon__naam"></span>
  wil ervoor zorgen dat ze nog steeds de goeden zijn, dat ze nog steeds het vuur dragen.
@@ -177,12 +177,13 @@ In een supermarkt vindt <span class="vader__naam"></span>
  beseft dat hij het op het strand is vergeten en ze moeten terugkeren. <span class="zoon__naam"></span>
  verontschuldigt zich, maar <span class="vader__naam"></span>
  zegt dat het zijn schuld is; hij moet ervoor zorgen dat ze te allen tijde het pistool hebben. Ze keren terug naar het strand en ze maken het zand van het pistool schoon. <span class="zoon__naam"></span>
- is nerveus en vraagt ​​of de donker hen gaat vangen.
+ is nerveus omdat de nacht in aantocht is. Nachten zijn het ergste door de verschillend bendes en beesten die ronddwalen in het donker.
 </p>
       </div>
       <div class="grid__item grid3">
-        <p>Er nadert een storm en ze haasten zich om hun kamp te bereiken voor het donker wordt. De nacht vangt ze echter wel en dus bewegen ze zich met behulp van de bliksem. Dan hoort <span class="vader__naam"></span>
- de regen hun tarp raken. Ze schuilen voor de lange, koude, natte nacht.
+        <p>Er nadert een storm en ze haasten zich om hun kamp te bereiken voor het donker wordt. Vader en zoon zitten middenin de storm maar mogen nog altijd geen geluid maken dus bewegen ze zich met behulp van de bliksem. Dan hoort <span class="vader__naam"></span>
+ de regen hun tarp raken. Ze schuilen voor de lange, koude, natte nacht.  <span class="varder__naam"></span> weet dat hij zal sterven. Hij is zoek en heeft geen medicatie of geneesmiddelen maar wil dit niet zeggen aan zijn zoon. Hij wil niet dat de jongen ongerust op pad gaat.
+
 </p>
       </div>
       <div class="grid__item grid4">

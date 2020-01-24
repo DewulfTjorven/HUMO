@@ -55,16 +55,9 @@
       <p class='name'>0471119664</p>
     </div>
 
-    <div class="user__overview">
-      <p class='name'>Betaalmethode: Maestro</p>
-      <p class='name'>BE48 6108 7564 3212</p>
-      <p class='name'>12/22</p>
-
-    </div>
-
     <div class="pay">
     <p class='overview__total text--color__red'><span>total:</span> <?php echo money_format("%i", $total);?></p>
-    <button class="btn__add btn__korting" id="btn__add" type="submit" name="action" value="pay">Add to cart</button>
+    <button class="btn__add btn__korting" id="btn__add" type="submit" name="action" value="pay">Naar betalen</button>
 
     </div>
 
