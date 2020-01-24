@@ -198,19 +198,19 @@
 
     /* eslint-disable */
 
-    ScrollReveal().reveal('.longread__nav', {delay: 1500});
-    ScrollReveal().reveal('.header__content', {delay: 1500});
-    ScrollReveal().reveal('.summary__text', {delay: 500});
+    ScrollReveal().reveal('.longread__nav', {delay: 1200});
+    ScrollReveal().reveal('.header__content', {delay: 1200});
+    ScrollReveal().reveal('.summary__text', {delay: 400});
     ScrollReveal().reveal('.vader', {delay: 800});
     ScrollReveal().reveal('.zoon', {delay: 800});
-    ScrollReveal().reveal('.name__input', {delay: 1000});
-    ScrollReveal().reveal('.longread__title__h1', {delay: 1000});
+    ScrollReveal().reveal('.name__input', {delay: 800});
+    ScrollReveal().reveal('.longread__title__h1', {delay: 800});
     if(document.querySelector('.roadmap')){
-      ScrollReveal().reveal('.roadmap', {delay: 1000});
+      ScrollReveal().reveal('.roadmap', {delay: 800});
     }
-    ScrollReveal().reveal('.grid__delay1', {delay: 1000});
-    ScrollReveal().reveal('.grid__delay2', {delay: 1300});
-    ScrollReveal().reveal('.grid__delay3', {delay: 1600});
+    ScrollReveal().reveal('.grid__delay1', {delay: 800});
+    ScrollReveal().reveal('.grid__delay2', {delay: 1000});
+    ScrollReveal().reveal('.grid__delay3', {delay: 1200});
 
 
 

@@ -60,7 +60,7 @@
       <div class="grid__delay2">
       <h2>De zoon</h2>
       <br>
-      <p><span class="zoon__naam"></span>is het tweede hoofdpersonage. Terwijl de man en <span class="zoon__naam"></span> onderweg zijn, is  <span class="zoon__naam"></span> de enige lichtbron in het leven van zijn vader. Evenzo is de man alles wat de <span class="zoon__naam"></span> heeft, en <span class="zoon__naam"> </span> wil niet leven tenzij zijn vader bij hem blijft. <span class="zoon__naam"> </span> is sterk en veerkrachtig, maar ook gevoelig en medelevend. Wanneer de man en  <span class="zoon__naam"> </span> onderweg anderen tegenkomen, toont <span class="zoon__naam"></span> meer sympathie voor hen, terwijl zijn vader meer bezorgd is over het in leven houden van de twee. Het is <span class="zoon__naam"></span> die de man ertoe brengt om vriendelijkheid te tonen aan anderen op de weg, hoe tegenzin deze vriendelijkheid ook wordt gegeven. Een van de topprioriteiten van  <span class="zoon__naam"> </span> is om een ​​goede kerel te zijn. Hij wil ervoor zorgen dat hij en zijn vader mensen helpen en het vuur dragen. Terwijl <span class="zoon__naam"> </span> de bron is van alle kracht van de man, beseft de man niet hoeveel <span class="zoon__naam"> </span> zich zorgen maakt om hem, en hoeveel de wil van <span class="zoon__naam"> </span> om te leven afhankelijk is van zijn vader.
+      <p><span class="zoon__naam"></span> is het tweede hoofdpersonage. Terwijl de man en <span class="zoon__naam"></span> onderweg zijn, is  <span class="zoon__naam"></span> de enige lichtbron in het leven van zijn vader. Evenzo is de man alles wat de <span class="zoon__naam"></span> heeft, en <span class="zoon__naam"> </span> wil niet leven tenzij zijn vader bij hem blijft. <span class="zoon__naam"> </span> is sterk en veerkrachtig, maar ook gevoelig en medelevend. Wanneer de man en  <span class="zoon__naam"> </span> onderweg anderen tegenkomen, toont <span class="zoon__naam"></span> meer sympathie voor hen, terwijl zijn vader meer bezorgd is over het in leven houden van de twee. Het is <span class="zoon__naam"></span> die de man ertoe brengt om vriendelijkheid te tonen aan anderen op de weg, hoe tegenzin deze vriendelijkheid ook wordt gegeven. Een van de topprioriteiten van  <span class="zoon__naam"> </span> is om een ​​goede kerel te zijn. Hij wil ervoor zorgen dat hij en zijn vader mensen helpen en het vuur dragen. Terwijl <span class="zoon__naam"> </span> de bron is van alle kracht van de man, beseft de man niet hoeveel <span class="zoon__naam"> </span> zich zorgen maakt om hem, en hoeveel de wil van <span class="zoon__naam"> </span> om te leven afhankelijk is van zijn vader.
 </p>
       </div>
       <div class="grid__delay3">
@@ -89,7 +89,7 @@
   <div class="longread__container">
 
     <div class="longread__grid hoofdstuk2">
-      <h1 class="grid__item grid1">HOODSTUK 2: <br>VADER EN ZOON VETREKKEN ZUID NAAR HET PAD TUSSEN DE BERGEN</h1>
+      <h1 class="grid__item grid1">HOOFDSTUK 2: <br>VADER EN ZOON VERTREKKEN ZUID NAAR HET PAD TUSSEN DE BERGEN</h1>
       <div class="grid__item grid2">
         <p><span class="vader__naam"></span>
 en <span class="zoon__naam"></span>
@@ -126,7 +126,7 @@ In een supermarkt vindt <span class="vader__naam"></span>
     </div>
 
     <div class="longread__grid hoofdstuk8">
-      <h1 class="grid__item grid1">HOODSTUK 8: <br>VRIEZENDE REGEN EN LANGE NACHTEN, MAAR WE MOETEN DOOR</h1>
+      <h1 class="grid__item grid1">HOOFDSTUK 8: <br>VRIEZENDE REGEN EN LANGE NACHTEN, MAAR WE MOETEN DOOR</h1>
       <div class="grid__item grid2">
         <p><span class="vader__naam"></span>
  en <span class="zoon__naam"></span>
@@ -167,7 +167,7 @@ In een supermarkt vindt <span class="vader__naam"></span>
     </div>
 
     <div class="longread__grid hoofdstuk16">
-      <h1 class="grid__item grid1">HOODSTUK 16: <br>DE JONGEN VERGEET HET PISTOOL, HET AFVUREN VAN EEN FLARE.</h1>
+      <h1 class="grid__item grid1">HOOFDSTUK 16: <br>DE JONGEN VERGEET HET PISTOOL, HET AFVUREN VAN EEN FLARE.</h1>
       <div class="grid__item grid2">
         <p><span class="vader__naam"></span>
  en <span class="zoon__naam"></span>

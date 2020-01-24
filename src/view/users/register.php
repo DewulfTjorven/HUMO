@@ -26,6 +26,7 @@
     </div>
     </form>
     <a href="index.php?page=overview"><button class="btn__add" type="" id="" name="" value="">Checkout</button></a>
-
   </section>
 </section>
+
+<script src="../js/validate.js"></script>
