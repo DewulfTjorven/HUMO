@@ -311,7 +311,6 @@
   box-shadow: .1rem .1rem 6rem rgba(200, 200, 200, .3);
 }
 
-
 .longread__grid__verhaal {
   width: 100%;
   height: auto;
@@ -717,7 +716,6 @@
   }
 }
 
-
 @media only screen and (max-width: 600px) {
 
   .hoofdstuk2__button {
@@ -928,7 +926,6 @@
     animation: animation 3000ms linear infinite both;
   }
 }
-
 
 /* Generated with Bounce.js. Edit at http://bouncejs.com#%7Bl%3A1%2Cs%3A%5B%7BT%3A%22t%22%2Ce%3A%22s%22%2Cd%3A3000%2CD%3A0%2Cf%3A%7Bx%3A0%2Cy%3A0%7D%2Ct%3A%7Bx%3A0%2Cy%3A20%7D%2Cs%3A1%2Cb%3A10%7D%5D%7D */
 /* stylelint-disable */
