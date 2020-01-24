@@ -355,6 +355,8 @@
   border-radius: .2rem;
   opacity: .8;
   transition: .2s ease;
+  animation: animation 3000ms linear infinite both;
+
 }
 
 .volgende {
@@ -505,6 +507,72 @@
   animation: animation 3000ms linear infinite both;
 }
 
+@media only screen and (max-width: 1200px) {
+
+  .hoofdstuk2__button {
+    position: absolute;
+    top: 25rem;
+    left: 10rem;
+  }
+
+  .hoofdstuk8__button {
+    position: absolute;
+    top: 29rem;
+    left: 40rem;
+  }
+
+  .hoofdstuk16__button {
+    position: absolute;
+    top: 24rem;
+    left: 85rem;
+  }
+
+}
+
+@media only screen and (max-width: 1040px) {
+
+  .hoofdstuk2__button {
+    position: absolute;
+    top: 25rem;
+    left: 5rem;
+  }
+
+  .hoofdstuk8__button {
+    position: absolute;
+    top: 29rem;
+    left: 30rem;
+  }
+
+  .hoofdstuk16__button {
+    position: absolute;
+    top: 25rem;
+    left: 70rem;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .hoofdstuk2__button {
+    position: absolute;
+    top: 25rem;
+    left: 5rem;
+  }
+
+  .hoofdstuk8__button {
+    position: absolute;
+    top: 30rem;
+    left: 25rem;
+  }
+
+  .hoofdstuk16__button {
+    position: absolute;
+    top: 24rem;
+    left: 55rem;
+  }
+
+}
+
 @media only screen and (max-width: 768px) {
 
   .summary__content {
@@ -649,7 +717,30 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 600px) {
+
+  .hoofdstuk2__button {
+    position: absolute;
+    top: 35rem;
+    left: 13rem;
+  }
+
+  .hoofdstuk8__button {
+    position: absolute;
+    top: 27rem;
+    left: 20rem;
+  }
+
+  .hoofdstuk16__button {
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
 
   .dropdown__nav ul {
     display: flex;
